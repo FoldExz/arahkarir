@@ -1,43 +1,27 @@
 'use strict';
 
 // ============================================================
-//  ARAH KARIR — Frontend Script v3
-//  Handles: Load careers from API, career detail modal (tabbed),
-//           AI assessment with match score, mermaid roadmap
+//  ARAH KARIR — Frontend Script v4
+//  Handles: D3 Constellation UI, career detail modal (tabbed),
+//           AI assessment with match score
 // ============================================================
 
-// ── Mermaid Init ────────────────────────────────────────────
-mermaid.initialize({
-  startOnLoad: false,
-  theme: 'dark',
-  themeVariables: {
-    darkMode: true,
-    background: '#16161f',
-    primaryColor: '#1c1c28',
-    primaryBorderColor: '#7c6ff7',
-    primaryTextColor: '#f0f0f8',
-    lineColor: '#55556a',
-    secondaryColor: '#1a1a26',
-    tertiaryColor: '#16161f',
-    edgeLabelBackground: '#16161f',
-    clusterBkg: '#1a1a26',
-    fontFamily: 'Plus Jakarta Sans, system-ui, sans-serif',
-    fontSize: '13px',
-  },
-  flowchart: { curve: 'basis', padding: 20 },
-});
+// ── Constellation State ──────────────────────────────────────
+let allCareers = [];          // full dataset from API
+let activeCategory = 'all';   // current filter
 
 // ============================================================
 //  STATE
 // ============================================================
-let currentCareer = null; // the full career object from DB
+let currentCareer = null;
 
 // ============================================================
 //  DOM References
 // ============================================================
-const careersLoading  = document.getElementById('careers-loading');
-const careersError    = document.getElementById('careers-error');
-const careersGrid     = document.getElementById('careers-grid');
+const careersLoading = document.getElementById('careers-loading');
+const careersError   = document.getElementById('careers-error');
+const svgEl          = document.getElementById('constellation-svg');
+const catFilterBar   = document.getElementById('cat-filter-bar');
 
 const modalOverlay    = document.getElementById('modal-overlay');
 const modalClose      = document.getElementById('modal-close');
@@ -98,9 +82,13 @@ async function loadCareers() {
   try {
     const res = await fetch('/api/careers');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const careers = await res.json();
+    allCareers = await res.json();
     careersLoading.classList.add('hidden');
-    renderCareers(careers);
+    // Update hero stat
+    const statEl = document.getElementById('stat-career-count');
+    if (statEl) statEl.querySelector('strong').textContent = allCareers.length;
+    renderFilterBar();
+    renderConstellation(allCareers);
   } catch (err) {
     console.error('[loadCareers] Error:', err);
     careersLoading.classList.add('hidden');
@@ -109,47 +97,115 @@ async function loadCareers() {
 }
 
 // ============================================================
-//  RENDER Career Cards
+//  RENDER Filter Bar (category pills)
 // ============================================================
-function renderCareers(careers) {
-  careersGrid.innerHTML = '';
-  careers.forEach((career) => {
-    const card = document.createElement('div');
-    card.className = 'career-card';
-    card.setAttribute('role', 'button');
-    card.setAttribute('tabindex', '0');
-    card.setAttribute('aria-label', `Lihat detail profesi ${career.title}`);
-
-    const demandClass = career.demand_level === 'Sangat Tinggi'
-      ? 'demand-very-high'
-      : career.demand_level === 'Tinggi' ? 'demand-high' : 'demand-medium';
-
-    card.innerHTML = `
-      <div class="career-card-top">
-        <span class="career-emoji">${career.emoji}</span>
-        <div class="career-category">${career.category}</div>
-      </div>
-      <h3 class="career-title">${career.title}</h3>
-      <p class="career-desc">${career.description.slice(0, 120)}…</p>
-      <div class="career-meta">
-        <span class="career-salary">${career.salary_range_id}</span>
-        <span class="career-demand ${demandClass}">${career.demand_level}</span>
-      </div>
-      <div class="career-stack-preview">
-        ${career.tech_stack.slice(0, 4).map((t) => `<span class="stack-chip">${t}</span>`).join('')}
-        ${career.tech_stack.length > 4 ? `<span class="stack-chip stack-more">+${career.tech_stack.length - 4}</span>` : ''}
-      </div>
-      <button class="career-cta-btn" aria-label="Buka detail ${career.title}">
-        Lihat Detail & Cek Kecocokan
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </button>
-    `;
-
-    const openFn = () => openModal(career);
-    card.querySelector('.career-cta-btn').addEventListener('click', openFn);
-    card.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') openFn(); });
-    careersGrid.appendChild(card);
+function renderFilterBar() {
+  const cats = ['all', ...new Set(allCareers.map(c => c.category))];
+  catFilterBar.innerHTML = '';
+  cats.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'cat-pill' + (cat === 'all' ? ' active' : '');
+    btn.textContent = cat === 'all' ? '✦ Semua' : cat;
+    btn.dataset.cat = cat;
+    btn.addEventListener('click', () => {
+      activeCategory = cat;
+      document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      const filtered = cat === 'all' ? allCareers : allCareers.filter(c => c.category === cat);
+      renderConstellation(filtered);
+    });
+    catFilterBar.appendChild(btn);
   });
+}
+
+// ============================================================
+//  RENDER Constellation (D3 force simulation)
+// ============================================================
+const CATEGORY_COLORS = {
+  'Software Engineering':   '#7c6ff7',
+  'Data & AI':              '#4ade80',
+  'Cybersecurity':          '#f87171',
+  'Infrastructure & Cloud': '#60a5fa',
+  'Design & Product':       '#e96cdb',
+  'Business & Product':     '#fbbf24',
+  'Engineering & Hardware': '#fb923c',
+  'Creative & Gaming':      '#a78bfa',
+  'Creative & Media':       '#f472b6',
+  'Science & Health':       '#34d399',
+  'Agri & Green Tech':      '#86efac',
+};
+
+let simulation = null; // keep ref so we can stop on re-render
+
+function renderConstellation(careers) {
+  // Stop previous simulation
+  if (simulation) simulation.stop();
+
+  const svg = d3.select('#constellation-svg');
+  svg.selectAll('*').remove();
+
+  const W = svgEl.clientWidth  || window.innerWidth;
+  const H = svgEl.clientHeight || window.innerHeight;
+  const cx = W / 2, cy = H / 2;
+
+  // ── Define nodes ──
+  const centerNode = { id: '__center__', title: 'Explore', isCenter: true, x: cx, y: cy, fx: cx, fy: cy };
+  const nodes = [centerNode, ...careers.map(c => ({ ...c, id: c.id_role }))];
+  const links = careers.map(c => ({ source: '__center__', target: c.id_role }));
+
+  // ── Zoom layer ──
+  const g = svg.append('g').attr('class', 'zoom-layer');
+  svg.call(d3.zoom().scaleExtent([0.3, 2.5]).on('zoom', e => g.attr('transform', e.transform)));
+
+  // ── Link lines ──
+  const link = g.append('g').selectAll('line')
+    .data(links).join('line')
+    .attr('class', 'c-link');
+
+  // ── Node groups ──
+  const node = g.append('g').selectAll('g.c-node')
+    .data(nodes).join('g')
+    .attr('class', 'c-node')
+    .call(d3.drag()
+      .on('start', (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+      .on('drag',  (e, d) => { d.fx = e.x; d.fy = e.y; })
+      .on('end',   (e, d) => { if (!e.active) simulation.alphaTarget(0); if (!d.isCenter) { d.fx = null; d.fy = null; } }));
+
+  // ── Center node circle ──
+  node.filter(d => d.isCenter).append('circle')
+    .attr('r', 58).attr('class', 'c-center-ring');
+  node.filter(d => d.isCenter).append('circle')
+    .attr('r', 50).attr('class', 'c-center-core');
+  node.filter(d => d.isCenter).append('text')
+    .attr('class', 'c-center-label').attr('dy', '0.35em').text('Explore');
+
+  // ── Career nodes ──
+  const careerNodes = node.filter(d => !d.isCenter);
+  careerNodes.append('circle')
+    .attr('r', 8)
+    .attr('class', 'c-dot')
+    .style('fill', d => CATEGORY_COLORS[d.category] || '#7c6ff7');
+  careerNodes.append('text')
+    .attr('class', 'c-label')
+    .attr('x', 14).attr('dy', '0.35em')
+    .text(d => d.title);
+
+  // ── Click → open modal ──
+  careerNodes.style('cursor', 'pointer')
+    .on('click', (e, d) => { e.stopPropagation(); openModal(d); });
+
+  // ── Simulation ──
+  simulation = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(180).strength(0.5))
+    .force('charge', d3.forceManyBody().strength(-220))
+    .force('collision', d3.forceCollide(55))
+    .force('center', d3.forceCenter(cx, cy).strength(0.05))
+    .on('tick', () => {
+      link
+        .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+      node.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
 }
 
 // ============================================================
@@ -422,3 +478,22 @@ function showToast(message, type = 'info') {
 //  INIT
 // ============================================================
 loadCareers();
+
+// Re-render constellation on resize (debounced)
+let resizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    if (allCareers.length === 0) return;
+    const filtered = activeCategory === 'all'
+      ? allCareers
+      : allCareers.filter(c => c.category === activeCategory);
+    renderConstellation(filtered);
+  }, 250);
+});
+
+// Auto-hide hint after first interaction
+svgEl.addEventListener('click', () => {
+  const hint = document.getElementById('constellation-hint');
+  if (hint) hint.style.opacity = '0';
+}, { once: true });

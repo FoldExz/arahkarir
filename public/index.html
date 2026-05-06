@@ -60,7 +60,7 @@
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </a>
                 <div class="hero-stats">
-                    <div class="stat"><strong>6</strong><span>Profesi</span></div>
+                    <div class="stat" id="stat-career-count"><strong>—</strong><span>Profesi</span></div>
                     <div class="stat-divider"></div>
                     <div class="stat"><strong>AI</strong><span>Evaluator</span></div>
                     <div class="stat-divider"></div>
@@ -74,34 +74,37 @@
         </div>
     </section>
 
-    <!-- EXPLORATION SECTION: Career Cards Grid -->
+    <!-- EXPLORATION SECTION: Constellation Canvas -->
     <main id="exploration">
-        <section class="section" id="phase-explore">
-            <div class="section-header">
-                <div class="section-tag">Eksplorasi Profesi</div>
-                <h2 class="section-title">Pilih Jalur Karir</h2>
-                <p class="section-desc">
-                    Klik kartu profesi untuk melihat detail tech stack, sertifikasi, dan mulai asesmen AI kamu.
-                </p>
-            </div>
 
-            <!-- Loading State -->
-            <div class="careers-loading" id="careers-loading">
+        <!-- Full-viewport constellation canvas -->
+        <div class="constellation-wrapper" id="constellation-wrapper">
+
+            <!-- Loading overlay -->
+            <div class="constellation-loading" id="careers-loading">
                 <div class="loading-spinner"></div>
-                <p>Memuat database profesi...</p>
+                <p>Memuat universe karir...</p>
             </div>
 
-            <!-- Error State -->
-            <div class="careers-error hidden" id="careers-error">
+            <!-- Error overlay -->
+            <div class="constellation-error hidden" id="careers-error">
                 <span class="error-icon">⚠️</span>
-                <p>Gagal memuat data profesi. Coba refresh halaman.</p>
+                <p>Gagal memuat data. Coba refresh halaman.</p>
             </div>
 
-            <!-- Career Cards Grid -->
-            <div class="careers-grid" id="careers-grid">
-                <!-- Injected by script.js after /api/careers -->
+            <!-- D3 SVG will be injected here -->
+            <svg id="constellation-svg"></svg>
+
+            <!-- Category filter pills -->
+            <div class="cat-filter-bar" id="cat-filter-bar"></div>
+
+            <!-- Hint tooltip -->
+            <div class="constellation-hint" id="constellation-hint">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+                Klik node untuk melihat detail & cek kecocokan AI
             </div>
-        </section>
+        </div>
+
     </main>
 
     <!-- ═══════════════════════════════════════════════════════════
@@ -362,7 +365,8 @@
         <span id="toast-message">-</span>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <!-- D3.js for constellation rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

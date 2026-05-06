@@ -5,8 +5,23 @@
     "emoji": "🎨",
     "category": "Software Engineering",
     "description": "Membangun antarmuka pengguna (UI) yang interaktif dan responsif untuk aplikasi web. Kamu adalah jembatan antara desain visual dan logika backend — bertanggung jawab atas apa yang user lihat dan rasakan langsung di browser mereka.",
-    "tech_stack": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vite", "GraphQL", "Jest", "Cypress", "Figma", "Storybook"],
-    "certifications": ["Meta Front-End Developer Certificate", "Google UX Design Certificate", "AWS Certified Cloud Practitioner"],
+    "tech_stack": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Vite",
+      "GraphQL",
+      "Jest",
+      "Cypress",
+      "Figma",
+      "Storybook"
+    ],
+    "certifications": [
+      "Meta Front-End Developer Certificate",
+      "Google UX Design Certificate",
+      "AWS Certified Cloud Practitioner"
+    ],
     "roadmap_url": "https://roadmap.sh/frontend",
     "salary_range_id": "Rp 6.000.000 – Rp 35.000.000/bulan",
     "demand_level": "Sangat Tinggi",
@@ -18,8 +33,26 @@
     "emoji": "🛡️",
     "category": "Cybersecurity",
     "description": "Merancang, mengimplementasikan, dan memantau infrastruktur keamanan jaringan perusahaan. Kamu adalah garda terdepan yang memastikan data dan sistem organisasi terlindungi dari ancaman siber — mulai dari konfigurasi firewall enterprise hingga incident response.",
-    "tech_stack": ["Palo Alto NGFW", "Fortinet FortiGate", "Cisco ISE", "Wireshark", "Splunk", "CrowdStrike", "Nessus", "Python (Scripting)", "Ansible", "Cisco ASA"],
-    "certifications": ["PCNSA (Palo Alto)", "NSE4 (Fortinet)", "CISSP", "CCNP Security", "CompTIA Security+", "CEH"],
+    "tech_stack": [
+      "Palo Alto NGFW",
+      "Fortinet FortiGate",
+      "Cisco ISE",
+      "Wireshark",
+      "Splunk",
+      "CrowdStrike",
+      "Nessus",
+      "Python (Scripting)",
+      "Ansible",
+      "Cisco ASA"
+    ],
+    "certifications": [
+      "PCNSA (Palo Alto)",
+      "NSE4 (Fortinet)",
+      "CISSP",
+      "CCNP Security",
+      "CompTIA Security+",
+      "CEH"
+    ],
     "roadmap_url": "https://roadmap.sh/cyber-security",
     "salary_range_id": "Rp 10.000.000 – Rp 50.000.000/bulan",
     "demand_level": "Tinggi",
@@ -31,8 +64,24 @@
     "emoji": "⚙️",
     "category": "Infrastructure & Cloud",
     "description": "Menjembatani tim development dan operations dengan mengotomasi pipeline CI/CD, mengelola infrastruktur cloud, dan memastikan sistem berjalan reliabel dan scalable. Kamu adalah arsitek dari kecepatan dan stabilitas pengiriman software.",
-    "tech_stack": ["Docker", "Kubernetes", "Terraform", "GitHub Actions", "Jenkins", "AWS / GCP / Azure", "Prometheus", "Grafana", "Ansible", "Linux (Bash Scripting)"],
-    "certifications": ["AWS Certified DevOps Engineer", "CKA (Certified Kubernetes Administrator)", "HashiCorp Terraform Associate", "Google Professional Cloud DevOps Engineer"],
+    "tech_stack": [
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "GitHub Actions",
+      "Jenkins",
+      "AWS / GCP / Azure",
+      "Prometheus",
+      "Grafana",
+      "Ansible",
+      "Linux (Bash Scripting)"
+    ],
+    "certifications": [
+      "AWS Certified DevOps Engineer",
+      "CKA (Certified Kubernetes Administrator)",
+      "HashiCorp Terraform Associate",
+      "Google Professional Cloud DevOps Engineer"
+    ],
     "roadmap_url": "https://roadmap.sh/devops",
     "salary_range_id": "Rp 12.000.000 – Rp 60.000.000/bulan",
     "demand_level": "Sangat Tinggi",
@@ -44,8 +93,24 @@
     "emoji": "🔬",
     "category": "Data & AI",
     "description": "Menggali insight tersembunyi dari data mentah menggunakan statistik, machine learning, dan visualisasi. Kamu mengubah angka-angka menjadi keputusan bisnis strategis — dari prediksi churn pelanggan hingga rekomendasi produk berbasis AI.",
-    "tech_stack": ["Python", "Pandas", "NumPy", "Scikit-learn", "TensorFlow / PyTorch", "SQL", "Spark", "Jupyter Notebook", "Tableau / Looker", "Hugging Face"],
-    "certifications": ["Google Professional Data Engineer", "IBM Data Science Professional Certificate", "AWS Certified Machine Learning Specialty", "TensorFlow Developer Certificate"],
+    "tech_stack": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "TensorFlow / PyTorch",
+      "SQL",
+      "Spark",
+      "Jupyter Notebook",
+      "Tableau / Looker",
+      "Hugging Face"
+    ],
+    "certifications": [
+      "Google Professional Data Engineer",
+      "IBM Data Science Professional Certificate",
+      "AWS Certified Machine Learning Specialty",
+      "TensorFlow Developer Certificate"
+    ],
     "roadmap_url": "https://roadmap.sh/ai-data-scientist",
     "salary_range_id": "Rp 10.000.000 – Rp 55.000.000/bulan",
     "demand_level": "Tinggi",
@@ -57,8 +122,23 @@
     "emoji": "✏️",
     "category": "Design & Product",
     "description": "Menciptakan pengalaman digital yang intuitif, estetis, dan berpusat pada pengguna. Kamu menggabungkan riset perilaku pengguna, psikologi desain, dan kemampuan visual untuk membangun produk yang tidak hanya indah, tapi juga mudah digunakan.",
-    "tech_stack": ["Figma", "Adobe XD", "Protopie", "Maze (User Testing)", "Miro", "Hotjar", "Zeplin", "HTML/CSS (Basic)", "Framer"],
-    "certifications": ["Google UX Design Professional Certificate", "Interaction Design Foundation (IDF) Membership", "Nielsen Norman Group UX Certification", "Adobe Certified Professional"],
+    "tech_stack": [
+      "Figma",
+      "Adobe XD",
+      "Protopie",
+      "Maze (User Testing)",
+      "Miro",
+      "Hotjar",
+      "Zeplin",
+      "HTML/CSS (Basic)",
+      "Framer"
+    ],
+    "certifications": [
+      "Google UX Design Professional Certificate",
+      "Interaction Design Foundation (IDF) Membership",
+      "Nielsen Norman Group UX Certification",
+      "Adobe Certified Professional"
+    ],
     "roadmap_url": "https://roadmap.sh/ux-design",
     "salary_range_id": "Rp 7.000.000 – Rp 40.000.000/bulan",
     "demand_level": "Tinggi",
@@ -70,11 +150,2176 @@
     "emoji": "🖥️",
     "category": "Software Engineering",
     "description": "Membangun otak dari sebuah aplikasi — API, database, logika bisnis, dan sistem server yang mentenagai segala sesuatu di balik layar. Kamu adalah insinyur yang memastikan data mengalir dengan aman, cepat, dan tepat dari server ke user.",
-    "tech_stack": ["Node.js / Go / Python", "PostgreSQL / MySQL", "Redis", "REST API / gRPC", "Docker", "Nginx", "RabbitMQ / Kafka", "Prisma / SQLAlchemy", "JWT / OAuth2"],
-    "certifications": ["AWS Certified Developer – Associate", "Oracle Java SE Programmer", "MongoDB Associate Developer", "Google Associate Cloud Engineer"],
+    "tech_stack": [
+      "Node.js / Go / Python",
+      "PostgreSQL / MySQL",
+      "Redis",
+      "REST API / gRPC",
+      "Docker",
+      "Nginx",
+      "RabbitMQ / Kafka",
+      "Prisma / SQLAlchemy",
+      "JWT / OAuth2"
+    ],
+    "certifications": [
+      "AWS Certified Developer – Associate",
+      "Oracle Java SE Programmer",
+      "MongoDB Associate Developer",
+      "Google Associate Cloud Engineer"
+    ],
     "roadmap_url": "https://roadmap.sh/backend",
     "salary_range_id": "Rp 8.000.000 – Rp 50.000.000/bulan",
     "demand_level": "Sangat Tinggi",
     "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "cloud-net-arch",
+    "title": "Cloud Network Architect",
+    "emoji": "☁️",
+    "category": "Infrastructure & Cloud",
+    "description": "Merancang dan mengelola jaringan virtual yang kompleks di ekosistem cloud (AWS, Azure, GCP). Kamu memastikan topologi jaringan antar region, VPC peering, dan transit gateway berjalan dengan latensi rendah, skalabilitas tinggi, dan keamanan tingkat enterprise.",
+    "tech_stack": [
+      "AWS Transit Gateway",
+      "Azure Virtual WAN",
+      "Terraform",
+      "BGP",
+      "IPsec VPN",
+      "Cisco CSR1000V",
+      "Palo Alto VM-Series",
+      "Python"
+    ],
+    "certifications": [
+      "AWS Certified Advanced Networking",
+      "Azure Network Engineer Associate",
+      "CCNP Enterprise"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 65.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "sre-eng",
+    "title": "Site Reliability Engineer (SRE)",
+    "emoji": "🚨",
+    "category": "Infrastructure & Cloud",
+    "description": "Menerapkan pendekatan software engineering ke dalam IT operations. Kamu bertanggung jawab penuh atas ketersediaan (uptime), latensi, performa, dan kapasitas sistem berskala besar. Saat server down di tengah malam, kamu adalah pahlawan yang dicari.",
+    "tech_stack": [
+      "Go",
+      "Python",
+      "Kubernetes",
+      "Prometheus",
+      "Datadog",
+      "PagerDuty",
+      "SLI/SLO Frameworks",
+      "Chaos Mesh",
+      "Linux Kernel"
+    ],
+    "certifications": [
+      "Google Professional Cloud Architect",
+      "CKA",
+      "AWS Certified SysOps Administrator"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 18.000.000 – Rp 70.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "llm-genai-eng",
+    "title": "Generative AI & LLM Engineer",
+    "emoji": "🧠",
+    "category": "Data & AI",
+    "description": "Fokus pada fine-tuning, RAG (Retrieval-Augmented Generation), dan deployment Large Language Models (LLM) ke dalam aplikasi. Kamu membuat AI yang bisa menulis, menganalisis, dan berinteraksi selayaknya manusia dengan konteks spesifik perusahaan.",
+    "tech_stack": [
+      "Python",
+      "PyTorch",
+      "LangChain",
+      "LlamaIndex",
+      "Hugging Face",
+      "Vector DBs (Pinecone, Milvus)",
+      "OpenAI API",
+      "CUDA"
+    ],
+    "certifications": [
+      "DeepLearning.AI Generative AI with Large Language Models",
+      "AWS Machine Learning Specialty"
+    ],
+    "roadmap_url": "https://roadmap.sh/prompt-engineering",
+    "salary_range_id": "Rp 15.000.000 – Rp 80.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "realtime-data-eng",
+    "title": "Real-Time Data Streaming Engineer",
+    "emoji": "⚡",
+    "category": "Data & AI",
+    "description": "Membangun arsitektur pergerakan data waktu nyata (real-time). Berbeda dengan batch processing tradisional, kamu memastikan data jutaan transaksi per detik mengalir seketika untuk analitik fraud detection atau live dashboard.",
+    "tech_stack": [
+      "Apache Kafka",
+      "Apache Flink",
+      "Spark Streaming",
+      "Java",
+      "Scala",
+      "Confluent",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "certifications": [
+      "Confluent Certified Developer for Apache Kafka",
+      "Databricks Certified Data Engineer"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 14.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "pen-tester",
+    "title": "Penetration Tester (Ethical Hacker)",
+    "emoji": "🕵️‍♂️",
+    "category": "Cybersecurity",
+    "description": "Berperan sebagai 'peretas baik' yang dipekerjakan untuk menemukan celah keamanan dalam aplikasi, jaringan, dan sistem fisik sebelum peretas jahat menemukannya. Kamu menyimulasikan serangan cyber tingkat lanjut (Red Teaming).",
+    "tech_stack": [
+      "Kali Linux",
+      "Metasploit",
+      "Burp Suite",
+      "Nmap",
+      "Wireshark",
+      "Hashcat",
+      "Python",
+      "Bash",
+      "OWASP Top 10"
+    ],
+    "certifications": [
+      "OSCP (Offensive Security Certified Professional)",
+      "CEH (Certified Ethical Hacker)",
+      "CompTIA PenTest+"
+    ],
+    "roadmap_url": "https://roadmap.sh/cyber-security",
+    "salary_range_id": "Rp 10.000.000 – Rp 55.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "block-sec-auditor",
+    "title": "Blockchain Security Auditor",
+    "emoji": "⛓️",
+    "category": "Cybersecurity",
+    "description": "Menganalisis dan mengaudit smart contract dan arsitektur blockchain untuk mencegah eksploitasi jutaan dolar akibat bug kode. Kamu adalah garis pertahanan terakhir dalam ekosistem Web3 dan DeFi (Decentralized Finance).",
+    "tech_stack": [
+      "Solidity",
+      "Rust",
+      "EVM",
+      "Hardhat",
+      "Foundry",
+      "Slither",
+      "Mythril",
+      "Truffle",
+      "Web3.js"
+    ],
+    "certifications": [
+      "Certified Blockchain Security Professional (CBSP)",
+      "Smart Contract Hacker (C|SCH)"
+    ],
+    "roadmap_url": "https://roadmap.sh/blockchain",
+    "salary_range_id": "Rp 20.000.000 – Rp 100.000.000+/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "tech-sound-design",
+    "title": "Technical Sound Designer",
+    "emoji": "🎧",
+    "category": "Creative & Gaming",
+    "description": "Menjembatani audio design dengan game engine. Kamu tidak hanya membuat efek suara (SFX), tetapi juga memprogram bagaimana dan kapan suara tersebut bereaksi dinamis terhadap pergerakan pemain di dalam lingkungan 3D game.",
+    "tech_stack": [
+      "Wwise",
+      "FMOD",
+      "Unreal Engine (Blueprints)",
+      "Unity (C#)",
+      "Reaper",
+      "Pro Tools",
+      "Max/MSP",
+      "Python"
+    ],
+    "certifications": [
+      "Wwise Certification",
+      "FMOD Certified"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 8.000.000 – Rp 35.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "arvr-ixd",
+    "title": "AR/VR Interaction Designer",
+    "emoji": "🥽",
+    "category": "Design & Product",
+    "description": "Merancang UI dan UX khusus untuk komputasi spasial (Spatial Computing), Augmented Reality (AR), dan Virtual Reality (VR). Kamu memikirkan ergonomi, field of view, dan interaksi tangan/mata untuk perangkat seperti Apple Vision Pro atau Meta Quest.",
+    "tech_stack": [
+      "Figma",
+      "Unity",
+      "Unreal Engine",
+      "Blender",
+      "ShapesXR",
+      "Spline",
+      "C#",
+      "C++",
+      "Spatial.io"
+    ],
+    "certifications": [
+      "Meta AR Developer Professional Certificate",
+      "Unity Certified VR Developer"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "3d-char-rigger",
+    "title": "3D Character Technical Artist (Rigger)",
+    "emoji": "🦴",
+    "category": "Creative & Gaming",
+    "description": "Membuat 'kerangka digital' (rig) untuk karakter 3D agar animator bisa menggerakkannya secara realistis. Kamu memastikan lip-sync, pergerakan otot, dan dinamika pakaian bekerja sempurna di dalam game engine atau film animasi.",
+    "tech_stack": [
+      "Autodesk Maya",
+      "Python (Maya API)",
+      "Blender",
+      "Unreal Engine (Control Rig)",
+      "ZBrush",
+      "Marvelous Designer"
+    ],
+    "certifications": [
+      "Autodesk Certified Professional: Maya"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 9.000.000 – Rp 40.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "growth-pm",
+    "title": "Growth Product Manager",
+    "emoji": "📈",
+    "category": "Business & Product",
+    "description": "Fokus mengoptimalkan metrik akuisisi, aktivasi, retensi, dan monetisasi user (AARRR Funnel). Alih-alih meluncurkan fitur inti, kamu menjalankan ratusan eksperimen A/B test secara cepat untuk mendongkrak pertumbuhan bisnis eksponensial.",
+    "tech_stack": [
+      "Mixpanel",
+      "Amplitude",
+      "Google Analytics 4",
+      "Optimizely",
+      "Figma",
+      "SQL",
+      "Jira",
+      "Hotjar",
+      "Metabase"
+    ],
+    "certifications": [
+      "Reforge Growth Series",
+      "AIPMM Certified Product Manager"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "finops-analyst",
+    "title": "FinOps (Cloud Financial Operations) Analyst",
+    "emoji": "💸",
+    "category": "Business & Product",
+    "description": "Menggabungkan pemahaman finansial, bisnis, dan rekayasa cloud untuk mengoptimalkan tagihan server. Kamu menganalisis penggunaan AWS/GCP, merekomendasikan efisiensi instans, dan memastikan setiap dolar di cloud memberikan ROI maksimal.",
+    "tech_stack": [
+      "AWS Cost Explorer",
+      "CloudHealth",
+      "Apptio",
+      "Excel / Google Sheets (Advanced)",
+      "SQL",
+      "Tableau",
+      "Python"
+    ],
+    "certifications": [
+      "FinOps Certified Practitioner",
+      "AWS Certified Cloud Practitioner"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "bioinfo-scientist",
+    "title": "Bioinformatics Scientist",
+    "emoji": "🧬",
+    "category": "Science & Health",
+    "description": "Menggabungkan biologi, ilmu komputer, dan statistik untuk menganalisis data biologis yang masif, seperti urutan genom. Pekerjaanmu esensial untuk penemuan obat baru, pertanian presisi, dan pemahaman penyakit genetik langka.",
+    "tech_stack": [
+      "Python",
+      "R",
+      "Bash / Shell Scripting",
+      "Bioconductor",
+      "NCBI BLAST",
+      "Nextflow",
+      "HPC (High-Performance Computing)",
+      "SQL"
+    ],
+    "certifications": [
+      "Johns Hopkins Genomic Data Science Specialization"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 50.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "clin-trial-data-mgr",
+    "title": "Clinical Trial Data Manager",
+    "emoji": "🏥",
+    "category": "Science & Health",
+    "description": "Memastikan integritas, keakuratan, dan keamanan data yang dikumpulkan selama uji klinis obat atau alat medis. Kamu mendesain database klinis dan memastikan kepatuhan penuh terhadap regulasi seperti FDA atau BPOM.",
+    "tech_stack": [
+      "Medidata Rave",
+      "Oracle Clinical",
+      "REDCap",
+      "SAS",
+      "SQL",
+      "Excel",
+      "Veeva Vault"
+    ],
+    "certifications": [
+      "Certified Clinical Data Manager (CCDM)",
+      "Good Clinical Practice (GCP) Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "med-device-emb-eng",
+    "title": "Medical Device Embedded Engineer",
+    "emoji": "🫀",
+    "category": "Science & Health",
+    "description": "Merancang dan menulis firmware atau software level-rendah yang mengontrol peralatan medis vital, seperti alat pacu jantung, mesin MRI, atau ventilator. Kode yang kamu tulis berhubungan langsung dengan nyawa manusia (zero-fail tolerance).",
+    "tech_stack": [
+      "C",
+      "C++",
+      "RTOS (Real-Time Operating Systems)",
+      "Microcontrollers (ARM, PIC)",
+      "Verilog/VHDL",
+      "MISRA C Standard",
+      "Git"
+    ],
+    "certifications": [
+      "ISO 13485 (Medical Devices) Training",
+      "IEC 62304 Certification"
+    ],
+    "roadmap_url": "https://roadmap.sh/cpp",
+    "salary_range_id": "Rp 15.000.000 – Rp 55.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "sat-comm-eng",
+    "title": "Satellite Communications Engineer",
+    "emoji": "🛰️",
+    "category": "Engineering & Hardware",
+    "description": "Merancang dan mengoptimalkan sistem komunikasi frekuensi radio (RF) antara satelit di orbit dan stasiun bumi. Kamu mengatasi isu seperti Doppler shift, redaman hujan, dan propagasi sinyal luar angkasa.",
+    "tech_stack": [
+      "MATLAB",
+      "Simulink",
+      "CST Studio Suite",
+      "GNU Radio",
+      "Python",
+      "VHDL",
+      "RF Testing Equipment (Oscilloscopes)"
+    ],
+    "certifications": [
+      "VSAT Installation & Maintenance",
+      "Certified Microwave Transmission Engineer"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "quantum-researcher",
+    "title": "Quantum Computing Researcher",
+    "emoji": "⚛️",
+    "category": "Engineering & Hardware",
+    "description": "Berada di garis terdepan komputasi masa depan. Kamu mengembangkan algoritma kuantum, error correction codes, atau hardware qubit untuk menyelesaikan masalah yang mustahil dipecahkan oleh superkomputer klasik saat ini.",
+    "tech_stack": [
+      "Qiskit (IBM)",
+      "Cirq (Google)",
+      "Python",
+      "C++",
+      "Jupyter Notebook",
+      "Linear Algebra",
+      "Quantum Mechanics"
+    ],
+    "certifications": [
+      "IBM Certified Associate Developer - Quantum Computation using Qiskit"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 25.000.000 – Rp 100.000.000+/bulan",
+    "demand_level": "Rendah (Niche)",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "ev-batt-eng",
+    "title": "EV Battery Systems Engineer",
+    "emoji": "🔋",
+    "category": "Engineering & Hardware",
+    "description": "Merancang, menguji, dan mengoptimalkan Battery Management Systems (BMS) untuk kendaraan listrik (Electric Vehicles). Kamu memastikan baterai aman dari overcharge, tahan cuaca ekstrem, dan memiliki degradasi yang sangat lambat.",
+    "tech_stack": [
+      "MATLAB",
+      "Simulink",
+      "C",
+      "CAN bus",
+      "Altium Designer",
+      "LabVIEW",
+      "COMSOL Multiphysics",
+      "Python"
+    ],
+    "certifications": [
+      "Certified Battery Management System Specialist",
+      "Functional Safety (ISO 26262)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 55.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "prec-agri-drone",
+    "title": "Precision Agriculture Drone Specialist",
+    "emoji": "🚁",
+    "category": "Agri & Green Tech",
+    "description": "Mengoperasikan drone kelas industri yang dilengkapi sensor multispektral dan LIDAR untuk memetakan kesehatan tanaman, topografi lahan, dan memandu penyemprotan otomatis. Kamu adalah petani modern bersenjata data.",
+    "tech_stack": [
+      "Pix4D",
+      "DroneDeploy",
+      "QGIS",
+      "ArcGIS",
+      "Python",
+      "ArduPilot",
+      "Mission Planner",
+      "IoT Sensors"
+    ],
+    "certifications": [
+      "Sertifikasi Pilot Drone (APDI/FASI)",
+      "Part 107 (FAA - Jika Global)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 7.000.000 – Rp 30.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "On-site / Field Work"
+  },
+  {
+    "id_role": "carbon-data-analyst",
+    "title": "Carbon Footprint Data Analyst",
+    "emoji": "🌱",
+    "category": "Agri & Green Tech",
+    "description": "Membantu perusahaan menghitung, melacak, dan mengurangi emisi gas rumah kaca mereka di seluruh rantai pasok (Scope 1, 2, dan 3). Kamu menganalisis data energi raksasa untuk memandu transisi ke operasi net-zero.",
+    "tech_stack": [
+      "Excel (Advanced)",
+      "Python",
+      "SQL",
+      "Tableau",
+      "LCA Software (SimaPro, GaBi)",
+      "PowerBI"
+    ],
+    "certifications": [
+      "GHG Protocol Corporate Standard Training",
+      "Certified Carbon Reduction Manager (CRM)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 9.000.000 – Rp 40.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "access-eng",
+    "title": "Digital Accessibility (A11y) Engineer",
+    "emoji": "♿",
+    "category": "Software Engineering",
+    "description": "Memastikan web dan aplikasi seluler dapat diakses dan dinikmati oleh semua orang, termasuk mereka yang menggunakan screen reader atau memiliki keterbatasan motorik, penglihatan, dan pendengaran. Kamu memastikan kepatuhan terhadap WCAG.",
+    "tech_stack": [
+      "HTML5 (Semantic)",
+      "ARIA (Accessible Rich Internet Applications)",
+      "CSS3",
+      "JavaScript",
+      "VoiceOver / NVDA / JAWS",
+      "axe-core",
+      "Lighthouse"
+    ],
+    "certifications": [
+      "IAAP Certified Professional in Accessibility Core Competencies (CPACC)",
+      "Web Accessibility Specialist (WAS)"
+    ],
+    "roadmap_url": "https://roadmap.sh/frontend",
+    "salary_range_id": "Rp 9.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "mlops-eng",
+    "title": "MLOps Engineer",
+    "emoji": "🤖",
+    "category": "Data & AI",
+    "description": "Menjembatani Machine Learning dengan DevOps. Kamu memastikan model AI yang dikembangkan oleh Data Scientist tidak hanya berjalan di laptop mereka, tetapi dapat di-deploy, diskalakan, dan dipantau kinerjanya secara real-time di production environment.",
+    "tech_stack": [
+      "Kubeflow",
+      "MLflow",
+      "Docker",
+      "Kubernetes",
+      "Apache Airflow",
+      "AWS SageMaker",
+      "GCP Vertex AI",
+      "Python",
+      "Terraform"
+    ],
+    "certifications": [
+      "AWS Certified Machine Learning – Specialty",
+      "Google Professional Machine Learning Engineer"
+    ],
+    "roadmap_url": "https://roadmap.sh/mlops",
+    "salary_range_id": "Rp 15.000.000 – Rp 65.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "devsecops-eng",
+    "title": "DevSecOps Engineer",
+    "emoji": "🔐",
+    "category": "Cybersecurity",
+    "description": "Mengintegrasikan praktik keamanan (Security) langsung ke dalam pipeline CI/CD (DevOps). Kamu memastikan setiap baris kode, container, dan infrastruktur cloud dipindai dari kerentanan secara otomatis sebelum dirilis ke publik.",
+    "tech_stack": [
+      "GitLab CI",
+      "SonarQube",
+      "Trivy",
+      "Snyk",
+      "Aqua Security",
+      "HashiCorp Vault",
+      "Docker",
+      "Kubernetes",
+      "OWASP ZAP"
+    ],
+    "certifications": [
+      "Certified DevSecOps Professional (CDP)",
+      "AWS Certified Security – Specialty"
+    ],
+    "roadmap_url": "https://roadmap.sh/cyber-security",
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "webgl-dev",
+    "title": "WebGL Creative Developer",
+    "emoji": "✨",
+    "category": "Software Engineering",
+    "description": "Menggabungkan seni visual dan matematika untuk merender grafik 2D/3D interaktif langsung di web browser dengan performa tinggi. Kamu membuat website yang terasa seperti pengalaman sinematik atau video game.",
+    "tech_stack": [
+      "Three.js",
+      "WebGL",
+      "GLSL (Shaders)",
+      "React Three Fiber",
+      "GSAP",
+      "Blender",
+      "Math/Linear Algebra"
+    ],
+    "certifications": [
+      "Awwwards Masterclass Certifications"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Sedang (Niche)",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "graph-db-arch",
+    "title": "Graph Database Architect",
+    "emoji": "🕸️",
+    "category": "Data & AI",
+    "description": "Merancang skema database berbasis graf yang berfokus pada hubungan antar data (node & edge). Keahlianmu krusial untuk mesin rekomendasi, deteksi penipuan keuangan, dan pemetaan jaringan sosial berskala raksasa.",
+    "tech_stack": [
+      "Neo4j",
+      "Cypher Query Language",
+      "Amazon Neptune",
+      "TigerGraph",
+      "GraphQL",
+      "Python",
+      "Java"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional"
+    ],
+    "roadmap_url": "https://roadmap.sh/postgresql-dba",
+    "salary_range_id": "Rp 18.000.000 – Rp 70.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "virt-prod-td",
+    "title": "Virtual Production Technical Director",
+    "emoji": "🎬",
+    "category": "Creative & Media",
+    "description": "Mengawasi jembatan antara produksi film fisik dan digital. Kamu mengelola LED Volume raksasa dan sistem pelacakan kamera secara real-time (seperti pembuatan serial The Mandalorian) untuk merender lingkungan 3D saat syuting berlangsung.",
+    "tech_stack": [
+      "Unreal Engine (nDisplay)",
+      "Perforce",
+      "C++",
+      "Python",
+      "Disguise (d3)",
+      "OptiTrack / Vicon",
+      "Maya"
+    ],
+    "certifications": [
+      "Unreal Engine Virtual Production Fellowship"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 20.000.000 – Rp 80.000.000/bulan",
+    "demand_level": "Sedang (Niche)",
+    "work_style": "On-site (Studio)"
+  },
+  {
+    "id_role": "digital-colorist",
+    "title": "Digital Colorist (Cinema)",
+    "emoji": "🎨",
+    "category": "Creative & Media",
+    "description": "Menentukan mood, atmosfer, dan kontinuitas visual dari sebuah film atau iklan melalui manipulasi warna (color grading). Kamu bekerja di studio gelap bersama sutradara untuk mencapai visi sinematik yang sempurna.",
+    "tech_stack": [
+      "DaVinci Resolve",
+      "Baselight",
+      "Color Space (ACES)",
+      "Tangent Control Panels",
+      "Calman Color Calibration"
+    ],
+    "certifications": [
+      "Blackmagic Design Certified DaVinci Resolve Professional"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 8.000.000 – Rp 40.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "On-site / Studio"
+  },
+  {
+    "id_role": "robo-kinematics-eng",
+    "title": "Robotics Kinematics Engineer",
+    "emoji": "🦾",
+    "category": "Engineering & Hardware",
+    "description": "Fokus pada matematika pergerakan robot. Kamu menghitung inverse kinematics agar lengan robotik industri atau robot humanoid dapat bergerak memegang objek, berjalan, atau bermanuver dengan tingkat presisi milimeter.",
+    "tech_stack": [
+      "ROS (Robot Operating System)",
+      "C++",
+      "Python",
+      "MATLAB",
+      "Gazebo",
+      "Linear Algebra",
+      "Calculus"
+    ],
+    "certifications": [
+      "Sertifikasi ROS Developer"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "asic-verif-eng",
+    "title": "ASIC Verification Engineer",
+    "emoji": "microchip",
+    "category": "Engineering & Hardware",
+    "description": "Memastikan desain chip silikon (ASIC) bebas dari bug sebelum diproduksi massal. Karena biaya pembuatan ulang chip bisa mencapai jutaan dolar, pekerjaanmu dalam menguji logika sirkuit adalah fase paling krusial di industri semikonduktor.",
+    "tech_stack": [
+      "SystemVerilog",
+      "UVM (Universal Verification Methodology)",
+      "C++",
+      "Python",
+      "EDA Tools (Synopsys, Cadence)"
+    ],
+    "certifications": [
+      "Sertifikasi VLSI Verification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 20.000.000 – Rp 90.000.000/bulan",
+    "demand_level": "Sangat Tinggi (Global)",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "cfd-eng",
+    "title": "Computational Fluid Dynamics (CFD) Engineer",
+    "emoji": "🏎️",
+    "category": "Engineering & Science",
+    "description": "Mensimulasikan aliran fluida (cairan dan gas) dan perpindahan panas. Kamu bisa bekerja mendesain aerodinamika sayap pesawat, mobil F1, sistem pendingin server data center, hingga aliran darah pada jantung buatan.",
+    "tech_stack": [
+      "ANSYS Fluent",
+      "OpenFOAM",
+      "SolidWorks Flow Simulation",
+      "C++",
+      "Python",
+      "MATLAB",
+      "Linux HPC"
+    ],
+    "certifications": [
+      "ANSYS Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 50.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "neuroinfo-researcher",
+    "title": "Neuroinformatics Researcher",
+    "emoji": "🧠",
+    "category": "Science & Health",
+    "description": "Menggabungkan ilmu saraf (neuroscience) dengan komputasi data besar. Kamu memproses data pemindaian otak (fMRI, EEG) untuk memahami memori, mengembangkan antarmuka otak-komputer (BCI), atau mendeteksi Alzheimer sejak dini.",
+    "tech_stack": [
+      "Python",
+      "MATLAB",
+      "FSL",
+      "FreeSurfer",
+      "Machine Learning",
+      "MNE-Python",
+      "BIDS (Brain Imaging Data Structure)"
+    ],
+    "certifications": [
+      "Neuroimaging Specializations"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Rendah (Niche / Research)",
+    "work_style": "On-site (Lab)"
+  },
+  {
+    "id_role": "prosthetic-design-eng",
+    "title": "Bionic Prosthetic Designer",
+    "emoji": "🦿",
+    "category": "Science & Health",
+    "description": "Merancang anggota tubuh buatan (prostetik) yang terhubung secara neural dengan saraf pasien. Kamu menggabungkan biomekanika, desain 3D, dan sensor elektronik agar tangan atau kaki bionik dapat bergerak sealami mungkin.",
+    "tech_stack": [
+      "SolidWorks",
+      "Fusion 360",
+      "3D Printing (SLA/SLS)",
+      "Biomechanics",
+      "C (for Microcontrollers)",
+      "EMG Sensors"
+    ],
+    "certifications": [
+      "Certified Prosthetist Orthotist (CPO)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "telemed-arch",
+    "title": "Telemedicine Systems Architect",
+    "emoji": "📱",
+    "category": "Science & Health",
+    "description": "Merancang arsitektur perangkat lunak untuk platform kesehatan jarak jauh. Kamu memastikan video konsultasi berlatensi rendah, integrasi dengan rekam medis elektronik (EMR) berjalan mulus, dan kepatuhan absolut terhadap standar privasi HIPAA/SATUSEHAT.",
+    "tech_stack": [
+      "WebRTC",
+      "HL7 / FHIR",
+      "Node.js",
+      "Go",
+      "PostgreSQL",
+      "AWS HIPAA-Eligible Services",
+      "Encryption Protocols"
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect",
+      "Certified Professional in Healthcare Information and Management Systems (CPHIMS)"
+    ],
+    "roadmap_url": "https://roadmap.sh/software-architect",
+    "salary_range_id": "Rp 20.000.000 – Rp 75.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "quant-analyst",
+    "title": "Quantitative Analyst (Quant)",
+    "emoji": "📊",
+    "category": "Finance & Business",
+    "description": "Menggunakan matematika tingkat lanjut, statistik probabilitas, dan algoritma komputer untuk menemukan pola dan menentukan harga aset di pasar keuangan. Kamu adalah 'roket saintis' di dunia investasi dan hedge funds.",
+    "tech_stack": [
+      "Python",
+      "C++",
+      "R",
+      "KDB+/q",
+      "Stochastic Calculus",
+      "Time Series Analysis",
+      "Machine Learning"
+    ],
+    "certifications": [
+      "Certificate in Quantitative Finance (CQF)",
+      "CFA (Chartered Financial Analyst)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 25.000.000 – Rp 150.000.000+/bulan",
+    "demand_level": "Sangat Tinggi (High Finance)",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "algo-trade-dev",
+    "title": "Algorithmic Trading Developer",
+    "emoji": "⚡",
+    "category": "Finance & Business",
+    "description": "Membangun sistem High-Frequency Trading (HFT) yang mengeksekusi jutaan transaksi saham dalam hitungan mikrodetik. Pekerjaanmu berfokus pada optimasi ekstrim, meminimalkan latensi jaringan, dan interaksi langsung dengan hardware.",
+    "tech_stack": [
+      "C++ (Low Latency)",
+      "Rust",
+      "FPGA / Verilog",
+      "Linux Kernel Tuning",
+      "Multithreading",
+      "Network Sockets"
+    ],
+    "certifications": [
+      "Series 7 / Series 3 (Regulatory)"
+    ],
+    "roadmap_url": "https://roadmap.sh/cpp",
+    "salary_range_id": "Rp 30.000.000 – Rp 200.000.000+/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "supply-chain-opt",
+    "title": "Supply Chain Optimization Analyst",
+    "emoji": "📦",
+    "category": "Business & Logistics",
+    "description": "Menggunakan data dan riset operasi untuk merancang rute pengiriman paling efisien, penempatan gudang strategis, dan meminimalkan biaya logistik. Pekerjaanmu memastikan jutaan paket e-commerce sampai tepat waktu dengan biaya terendah.",
+    "tech_stack": [
+      "Python",
+      "SQL",
+      "Tableau",
+      "Gurobi",
+      "CPLEX",
+      "AnyLogic",
+      "Excel (Advanced Data Modeling)"
+    ],
+    "certifications": [
+      "APICS Certified Supply Chain Professional (CSCP)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 40.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Hybrid"
+  },
+  {
+    "id_role": "wind-turbine-eng",
+    "title": "Wind Turbine Aerodynamics Engineer",
+    "emoji": "🌬️",
+    "category": "Energy & Environment",
+    "description": "Merancang bentuk bilah (blade) turbin angin untuk memaksimalkan penangkapan energi kinetik dari angin sambil meminimalkan beban struktural dan kebisingan. Peranmu sangat vital dalam revolusi energi hijau.",
+    "tech_stack": [
+      "XFoil",
+      "OpenFAST",
+      "ANSYS",
+      "Python",
+      "Aerodynamics Theory",
+      "CAD"
+    ],
+    "certifications": [
+      "Renewable Energy Certifications"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 50.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "geothermal-eng",
+    "title": "Geothermal Reservoir Engineer",
+    "emoji": "🌋",
+    "category": "Energy & Environment",
+    "description": "Memodelkan dan menganalisis panas bumi dari bawah permukaan tanah. Kamu memprediksi kapasitas energi, menentukan lokasi pengeboran sumur produksi, dan memastikan sumber uap berkelanjutan untuk pembangkit listrik puluhan tahun ke depan.",
+    "tech_stack": [
+      "TOUGH2",
+      "Petrel",
+      "Python",
+      "Thermodynamics",
+      "Geosciences Data Analysis"
+    ],
+    "certifications": [
+      "Geothermal Engineering Certifications"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 18.000.000 – Rp 75.000.000/bulan",
+    "demand_level": "Tinggi (Khususnya di Indonesia)",
+    "work_style": "On-site / Field Work"
+  },
+  {
+    "id_role": "smart-grid-arch",
+    "title": "Smart Grid Architect",
+    "emoji": "🔌",
+    "category": "Energy & Environment",
+    "description": "Mengintegrasikan IT, telekomunikasi, dan sistem listrik tradisional untuk menciptakan jaringan listrik pintar. Kamu memastikan listrik dari panel surya rumahan bisa dijual kembali ke jaringan, mencegah pemadaman skala besar (blackout).",
+    "tech_stack": [
+      "SCADA",
+      "IEC 61850",
+      "IoT Architecture",
+      "Cybersecurity",
+      "Python",
+      "Data Streaming"
+    ],
+    "certifications": [
+      "Certified Energy Manager (CEM)",
+      "Cisco IoT Certifications"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 65.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "orbital-mech-analyst",
+    "title": "Orbital Mechanics Analyst",
+    "emoji": "🚀",
+    "category": "Space & Aviation",
+    "description": "Menghitung lintasan wahana antariksa, satelit, dan roket. Kamu menentukan jendela peluncuran yang tepat, manuver penghindaran puing angkasa (space debris), dan merencanakan gravitasi *slingshot* untuk misi antar-planet.",
+    "tech_stack": [
+      "STK (Systems Tool Kit)",
+      "MATLAB",
+      "Python",
+      "GMAT (General Mission Analysis Tool)",
+      "Astrodynamics Physics"
+    ],
+    "certifications": [
+      "Space Systems Engineering Training"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 20.000.000 – Rp 90.000.000/bulan",
+    "demand_level": "Sedang (Sangat Spesifik)",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "avionics-sw-eng",
+    "title": "Avionics Software Engineer",
+    "emoji": "✈️",
+    "category": "Space & Aviation",
+    "description": "Menulis kode untuk sistem kontrol penerbangan (Flight Control Systems) pesawat terbang, helikopter, atau drone kelas militer. Kode yang kamu tulis mengikuti standar DO-178C yang paling ketat di dunia demi keselamatan penerbangan.",
+    "tech_stack": [
+      "C",
+      "C++",
+      "Ada",
+      "RTOS (VxWorks, Integrity)",
+      "DO-178C Standards",
+      "MATLAB/Simulink"
+    ],
+    "certifications": [
+      "DO-178C Training",
+      "Software Safety Certification"
+    ],
+    "roadmap_url": "https://roadmap.sh/cpp",
+    "salary_range_id": "Rp 15.000.000 – Rp 70.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "nlp-ling-eng",
+    "title": "Computational Linguist / NLP Engineer",
+    "emoji": "🗣️",
+    "category": "Data & AI",
+    "description": "Menerjemahkan aturan tata bahasa, semantik, dan struktur bahasa manusia ke dalam algoritma yang dipahami mesin. Kamu berada di balik pengembangan mesin penerjemah akurat, asisten suara lokal, dan detektor ujaran kebencian regional.",
+    "tech_stack": [
+      "Python",
+      "NLTK",
+      "spaCy",
+      "Transformers (Hugging Face)",
+      "Regex",
+      "Prolog",
+      "Linguistics Theory"
+    ],
+    "certifications": [
+      "Stanford NLP Certification"
+    ],
+    "roadmap_url": "https://roadmap.sh/prompt-engineering",
+    "salary_range_id": "Rp 12.000.000 – Rp 50.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "dfir-analyst",
+    "title": "Digital Forensics & Incident Response (DFIR)",
+    "emoji": "🔍",
+    "category": "Cybersecurity",
+    "description": "Berperan sebagai 'detektif' ketika terjadi peretasan. Kamu mengamankan server yang diretas, memburu jejak malware, merekonstruksi kronologi serangan, dan memulihkan operasi bisnis secara aman.",
+    "tech_stack": [
+      "EnCase",
+      "FTK",
+      "Volatility",
+      "Wireshark",
+      "Splunk",
+      "Ghidra",
+      "Python",
+      "OS Internals (Windows/Linux)"
+    ],
+    "certifications": [
+      "GCFA (GIAC Certified Forensic Analyst)",
+      "GCIH (GIAC Certified Incident Handler)"
+    ],
+    "roadmap_url": "https://roadmap.sh/cyber-security",
+    "salary_range_id": "Rp 15.000.000 – Rp 75.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "Hybrid / On-call"
+  },
+  {
+    "id_role": "agritech-iot-arch",
+    "title": "Agritech IoT Architect",
+    "emoji": "🚜",
+    "category": "Agri & Green Tech",
+    "description": "Merancang ekosistem sensor pertanian berskala luas (kadar air tanah, suhu, cuaca) yang terhubung ke cloud. Kamu membantu agribisnis bertransisi dari insting menjadi pertanian presisi berbasis data real-time.",
+    "tech_stack": [
+      "LoRaWAN",
+      "MQTT",
+      "Arduino / Raspberry Pi",
+      "AWS IoT Core",
+      "Python",
+      "C++",
+      "Time-Series DB (InfluxDB)"
+    ],
+    "certifications": [
+      "AWS Certified IoT Specialty"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 40.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Hybrid"
+  },
+  {
+    "id_role": "hvac-controls-eng",
+    "title": "HVAC Controls & Automation Engineer",
+    "emoji": "❄️",
+    "category": "Engineering & Hardware",
+    "description": "Memprogram sistem otomasi cerdas untuk Heating, Ventilation, dan Air Conditioning (HVAC) pada gedung pencakar langit, rumah sakit, dan data center. Kamu mengoptimalkan efisiensi energi bangunan tanpa mengorbankan kenyamanan udara.",
+    "tech_stack": [
+      "BACnet",
+      "Modbus",
+      "PLC Programming",
+      "AutoCAD",
+      "Niagara Framework",
+      "Python",
+      "Building Automation Systems (BMS)"
+    ],
+    "certifications": [
+      "Certified Energy Manager (CEM)",
+      "Niagara N4 Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 9.000.000 – Rp 35.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "privacy-eng",
+    "title": "Privacy Engineer",
+    "emoji": "🔏",
+    "category": "Legal & Compliance Tech",
+    "description": "Menjembatani ranah hukum dan rekayasa perangkat lunak. Kamu mendesain sistem agar sesuai dengan regulasi privasi data global (GDPR, UU PDP) sejak tahap arsitektur, mengimplementasikan teknik de-identifikasi data, dan memastikan privasi pengguna terjaga tanpa mengorbankan utilitas aplikasi.",
+    "tech_stack": [
+      "Python",
+      "OneTrust",
+      "BigID",
+      "Data Anonymization Tools",
+      "Differential Privacy",
+      "Cryptography",
+      "SQL"
+    ],
+    "certifications": [
+      "CIPP/E (Certified Information Privacy Professional)",
+      "CDPSE (Certified Data Privacy Solutions Engineer)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "smart-contract-lawyer",
+    "title": "Smart Contract Lawyer (Legal Engineer)",
+    "emoji": "⚖️",
+    "category": "Legal & Compliance Tech",
+    "description": "Seorang ahli hukum yang bisa 'membaca' dan menulis kode. Kamu memastikan bahwa logika dalam smart contract blockchain sesuai dengan perjanjian hukum dunia nyata, serta memitigasi risiko hukum dari Decentralized Autonomous Organizations (DAO).",
+    "tech_stack": [
+      "Solidity (Basic)",
+      "LexDAO frameworks",
+      "OpenLaw",
+      "Ethereum/EVM",
+      "Legal Markdown"
+    ],
+    "certifications": [
+      "Certified Blockchain Legal Professional"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 20.000.000 – Rp 80.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "ediscovery-analyst",
+    "title": "eDiscovery Data Analyst",
+    "emoji": "📂",
+    "category": "Legal & Compliance Tech",
+    "description": "Membantu firma hukum atau korporasi besar dalam proses litigasi dengan mengumpulkan, memproses, dan menganalisis jutaan email, dokumen, dan log chat menggunakan AI untuk menemukan bukti digital (digital evidence) yang krusial di pengadilan.",
+    "tech_stack": [
+      "Relativity",
+      "Nuix",
+      "Clearwell",
+      "SQL",
+      "Python",
+      "Regex",
+      "Predictive Coding (TAR)"
+    ],
+    "certifications": [
+      "Relativity Certified Administrator (RCA)",
+      "Certified eDiscovery Specialist (CEDS)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Hybrid"
+  },
+  {
+    "id_role": "lxd-designer",
+    "title": "Learning Experience Designer (LXD)",
+    "emoji": "🧠",
+    "category": "EdTech & Education",
+    "description": "Menggabungkan prinsip desain UX, psikologi kognitif, dan instruksional desain untuk menciptakan perjalanan belajar (learning journey) digital yang sangat adiktif, efektif, dan dipersonalisasi bagi pelajar atau karyawan korporat.",
+    "tech_stack": [
+      "Articulate Storyline",
+      "Figma",
+      "Adobe Captivate",
+      "Moodle / Canvas LMS",
+      "xAPI",
+      "Camtasia"
+    ],
+    "certifications": [
+      "Certified Professional in Talent Development (CPTD)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 8.000.000 – Rp 35.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "ai-tutor-arch",
+    "title": "AI Tutor Architect",
+    "emoji": "🤖",
+    "category": "EdTech & Education",
+    "description": "Merancang sistem kecerdasan buatan yang bertindak sebagai tutor pribadi. Kamu membangun prompt dan model RAG yang mampu menganalisis gaya belajar siswa, memberikan penjelasan yang disesuaikan, dan membimbing tanpa langsung memberikan jawaban.",
+    "tech_stack": [
+      "LangChain",
+      "OpenAI API",
+      "Python",
+      "Vector DB (Pinecone)",
+      "EdTech Data Standards (LTI)",
+      "React"
+    ],
+    "certifications": [
+      "AI in Education Specializations"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 65.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "tech-level-designer",
+    "title": "Technical Level Designer",
+    "emoji": "🗺️",
+    "category": "Gaming & Esports",
+    "description": "Bukan sekadar menggambar peta, kamu merancang arsitektur ruang virtual di dalam game (level). Kamu menempatkan aset, mengatur alur permainan (pacing), memastikan optimasi rendering (occlusion culling), dan menggunakan scripting visual untuk event dalam game.",
+    "tech_stack": [
+      "Unreal Engine (Blueprints)",
+      "Unity",
+      "Maya",
+      "Blender",
+      "C#",
+      "C++",
+      "Perforce"
+    ],
+    "certifications": [
+      "Unreal Engine Authorized Instructor / Designer"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 8.000.000 – Rp 40.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "esports-data-analyst",
+    "title": "Esports Data Analyst",
+    "emoji": "🎮",
+    "category": "Gaming & Esports",
+    "description": "Menganalisis statistik pertandingan, heatmaps pemain, dan meta game secara mendalam (seperti Dota 2, Valorant, atau MLBB). Kamu memberikan insight berbasis data kepada pelatih dan tim pro untuk menyusun strategi draft dan rotasi yang mematikan.",
+    "tech_stack": [
+      "Python",
+      "R",
+      "Tableau",
+      "SQL",
+      "Game APIs (Riot Games API, Steam Web API)",
+      "Video Analysis Tools"
+    ],
+    "certifications": [
+      "Data Analytics Professional Certificate"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 7.000.000 – Rp 35.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "multiplayer-netcode-eng",
+    "title": "Multiplayer Network Engineer (Netcode)",
+    "emoji": "🌐",
+    "category": "Gaming & Esports",
+    "description": "Mengembangkan kode jaringan (netcode) untuk game multiplayer yang kompetitif. Pekerjaanmu adalah ilmu sihir yang menyembunyikan lag (latency) dari pemain menggunakan teknik seperti client-side prediction, server reconciliation, dan lag compensation.",
+    "tech_stack": [
+      "C++",
+      "C#",
+      "UDP/TCP Protocols",
+      "Photon Quantum / PUN",
+      "Unreal Engine Networking",
+      "AWS GameLift",
+      "Wireshark"
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect"
+    ],
+    "roadmap_url": "https://roadmap.sh/cpp",
+    "salary_range_id": "Rp 20.000.000 – Rp 80.000.000/bulan",
+    "demand_level": "Sangat Tinggi (Global)",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "game-econ-designer",
+    "title": "Game Economy Designer",
+    "emoji": "🪙",
+    "category": "Gaming & Esports",
+    "description": "Mengontrol inflasi dan deflasi ekonomi di dalam sebuah game. Kamu menggunakan simulasi matematika untuk menyeimbangkan *sink* dan *source* dari mata uang virtual agar pemain tetap termotivasi (retention) tanpa merusak nilai item dalam game.",
+    "tech_stack": [
+      "Excel (Advanced / VBA)",
+      "Machinations.io",
+      "Python",
+      "SQL",
+      "R",
+      "Monte Carlo Simulations"
+    ],
+    "certifications": [
+      "Economics / Game Theory Specializations"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 50.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "iiot-architect",
+    "title": "Industrial IoT (IIoT) Architect",
+    "emoji": "🏭",
+    "category": "Advanced Manufacturing & IoT",
+    "description": "Merancang jaringan sensor dan perangkat komputasi di lantai pabrik untuk otomasi industri 4.0. Kamu memastikan mesin-mesin raksasa dapat 'berbicara' satu sama lain dan mengirimkan data ke cloud untuk pemeliharaan prediktif.",
+    "tech_stack": [
+      "MQTT",
+      "OPC UA",
+      "Siemens MindSphere",
+      "PTC ThingWorx",
+      "AWS IoT SiteWise",
+      "Edge Computing",
+      "Python"
+    ],
+    "certifications": [
+      "Certified Internet of Things Professional",
+      "AWS Certified IoT Specialty"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 18.000.000 – Rp 65.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "digital-twin-eng",
+    "title": "Digital Twin Engineer",
+    "emoji": "👥",
+    "category": "Advanced Manufacturing & IoT",
+    "description": "Membuat replika digital virtual persis dari aset fisik dunia nyata (seperti mesin turbin, gedung, atau pabrik utuh). Kamu menyinkronkan data sensor real-time ke model 3D untuk mensimulasikan masa depan mesin tersebut tanpa menyentuh fisiknya.",
+    "tech_stack": [
+      "Unity / Unreal Engine",
+      "Azure Digital Twins",
+      "Python",
+      "CAD (AutoCAD, CATIA)",
+      "IoT Protocols",
+      "3D Modeling"
+    ],
+    "certifications": [
+      "Azure IoT Developer Specialty"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "additive-mfg-eng",
+    "title": "Additive Manufacturing (3D Printing) Engineer",
+    "emoji": "🖨️",
+    "category": "Advanced Manufacturing & IoT",
+    "description": "Spesialis dalam pencetakan 3D skala industri. Kamu menentukan parameter cetak, material (seperti titanium atau polimer komposit), dan mendesain geometri yang tidak mungkin dibuat oleh mesin konvensional untuk komponen pesawat atau medis.",
+    "tech_stack": [
+      "SolidWorks",
+      "Materialise Magics",
+      "Siemens NX",
+      "Topology Optimization",
+      "G-code",
+      "Cura / PrusaSlicer"
+    ],
+    "certifications": [
+      "Certified Additive Manufacturing (SME)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "solar-perf-analyst",
+    "title": "Solar Farm Performance Analyst",
+    "emoji": "☀️",
+    "category": "Green Tech & Energy",
+    "description": "Memantau dan mengoptimalkan hasil energi dari pembangkit listrik tenaga surya (PLTS) berskala utilitas. Kamu menganalisis data iradiasi matahari, sudut panel, dan degradasi inverter untuk memastikan target MW tercapai.",
+    "tech_stack": [
+      "PVsyst",
+      "Helioscope",
+      "Python",
+      "SCADA Systems",
+      "SQL",
+      "Meteorological Data Analysis"
+    ],
+    "certifications": [
+      "NABCEP PV Installation Professional (PVIP)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 9.000.000 – Rp 40.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Hybrid"
+  },
+  {
+    "id_role": "smart-city-planner",
+    "title": "Smart City Planner / Technologist",
+    "emoji": "🏙️",
+    "category": "Green Tech & Energy",
+    "description": "Mengintegrasikan teknologi ke dalam perencanaan tata kota. Kamu mendesain sistem untuk mengelola aliran lalu lintas secara otonom, manajemen limbah berbasis sensor, dan sistem penerangan jalan pintar untuk mereduksi emisi karbon kota.",
+    "tech_stack": [
+      "GIS (ArcGIS, QGIS)",
+      "Urban Data Modeling",
+      "IoT Architecture",
+      "Python",
+      "AutoCAD Civil 3D"
+    ],
+    "certifications": [
+      "LEED Accredited Professional",
+      "Smart Cities Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 55.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "hydrogen-cell-eng",
+    "title": "Hydrogen Fuel Cell Engineer",
+    "emoji": "💧",
+    "category": "Green Tech & Energy",
+    "description": "Mendesain dan mengembangkan sel bahan bakar hidrogen untuk kendaraan komersial berat, kereta, atau kapal laut. Kamu berfokus pada elektrokimia untuk mengubah hidrogen hijau menjadi listrik tanpa emisi selain air murni.",
+    "tech_stack": [
+      "COMSOL Multiphysics",
+      "MATLAB/Simulink",
+      "Thermodynamics",
+      "Fluid Mechanics",
+      "Electrochemistry",
+      "CAD"
+    ],
+    "certifications": [
+      "Hydrogen Safety Training"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 18.000.000 – Rp 65.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "carbon-capture-eng",
+    "title": "Carbon Capture & Storage (CCS) Engineer",
+    "emoji": "🏭",
+    "category": "Green Tech & Energy",
+    "description": "Merancang fasilitas mekanis dan kimiawi yang dapat menyedot gas CO2 langsung dari cerobong asap pabrik industri atau udara bebas (Direct Air Capture), lalu menyimpannya secara aman di bawah tanah secara permanen.",
+    "tech_stack": [
+      "Aspen HYSYS",
+      "Chemical Engineering (Process Design)",
+      "Thermodynamics",
+      "Fluid Dynamics",
+      "Python"
+    ],
+    "certifications": [
+      "Process Safety Management (PSM)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 70.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "synth-biologist",
+    "title": "Synthetic Biologist",
+    "emoji": "🦠",
+    "category": "Biotech & Deep Tech",
+    "description": "Merekayasa organisme hidup seperti ragi atau bakteri dari level DNA untuk memproduksi material baru, obat-obatan canggih, atau bahkan alternatif daging. Kamu memperlakukan DNA selayaknya baris kode komputer.",
+    "tech_stack": [
+      "Benchling",
+      "CRISPR-Cas9",
+      "Python",
+      "R",
+      "Molecular Cloning",
+      "Flow Cytometry",
+      "Bioreactor Operation"
+    ],
+    "certifications": [
+      "Biosafety Level 2/3 (BSL) Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "On-site (Lab)"
+  },
+  {
+    "id_role": "crispr-data-analyst",
+    "title": "CRISPR Data Analyst",
+    "emoji": "✂️",
+    "category": "Biotech & Deep Tech",
+    "description": "Menganalisis data pengurutan genom dari eksperimen penyuntingan gen CRISPR. Kamu mendeteksi mutasi off-target (kesalahan potong gen) dengan presisi tinggi melalui algoritma bioinformatika untuk memastikan terapi genetik aman bagi pasien.",
+    "tech_stack": [
+      "Python",
+      "R (Bioconductor)",
+      "CRISPResso2",
+      "Cas-OFFinder",
+      "Next Generation Sequencing (NGS)",
+      "Linux/Bash"
+    ],
+    "certifications": [
+      "Genomic Data Science Specialization"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 14.000.000 – Rp 55.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Hybrid"
+  },
+  {
+    "id_role": "biomaterials-eng",
+    "title": "Biomaterials Engineer",
+    "emoji": "🩹",
+    "category": "Biotech & Deep Tech",
+    "description": "Mendesain material pintar yang dapat berinteraksi dengan tubuh manusia tanpa memicu penolakan imun. Pekerjaanmu menghasilkan hidrogel untuk penyembuhan luka kronis, implan sendi yang dapat terurai, atau perancah untuk pertumbuhan jaringan buatan.",
+    "tech_stack": [
+      "Polymer Chemistry",
+      "CAD (SolidWorks)",
+      "Scanning Electron Microscopy (SEM)",
+      "Cell Culture",
+      "Rheology"
+    ],
+    "certifications": [
+      "Medical Device Quality Management (ISO 13485)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 50.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "On-site (Lab)"
+  },
+  {
+    "id_role": "bci-dev",
+    "title": "Brain-Computer Interface (BCI) Developer",
+    "emoji": "🧠",
+    "category": "Biotech & Deep Tech",
+    "description": "Menulis algoritma yang menerjemahkan sinyal listrik otak (EEG) menjadi perintah digital. Kamu mengembangkan software untuk pasien kelumpuhan agar dapat mengetik menggunakan pikiran atau mengontrol kursor dan kursi roda otonom.",
+    "tech_stack": [
+      "Python",
+      "C++",
+      "MNE-Python",
+      "Signal Processing",
+      "Machine Learning",
+      "OpenBCI"
+    ],
+    "certifications": [
+      "Neuroscience/Neuroinformatics Certifications"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 20.000.000 – Rp 85.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "vfx-compositor",
+    "title": "VFX Compositor",
+    "emoji": "🪄",
+    "category": "Creative & Motion",
+    "description": "Pesulap visual di tahap akhir pasca-produksi. Kamu menggabungkan (composite) footage live-action dengan elemen CGI 3D, matte painting, ledakan, dan green screen sehingga semuanya terlihat menyatu secara fotorealistis di layar bioskop.",
+    "tech_stack": [
+      "Nuke (The Foundry)",
+      "Adobe After Effects",
+      "Mocha Pro",
+      "Silhouette",
+      "Python (untuk Pipeline Nuke)",
+      "Color Science"
+    ],
+    "certifications": [
+      "Foundry Certified Nuke Trainer / Professional"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 8.000.000 – Rp 35.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Hybrid / Studio"
+  },
+  {
+    "id_role": "uiux-motion-designer",
+    "title": "UI/UX Motion Designer",
+    "emoji": "💫",
+    "category": "Creative & Motion",
+    "description": "Bukan sekadar animasi logo, kamu merancang koreografi transisi layar (micro-interactions) di dalam aplikasi digital. Kamu membuat antarmuka terasa hidup, memandu perhatian user, dan memberikan *delightful experience* melalui motion physics.",
+    "tech_stack": [
+      "Lottie",
+      "Adobe After Effects",
+      "Figma",
+      "Protopie",
+      "Framer",
+      "Cinema 4D (Basic)"
+    ],
+    "certifications": [
+      "Motion Design Professional Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 9.000.000 – Rp 40.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "procedural-env-artist",
+    "title": "Procedural Environment Artist",
+    "emoji": "🌍",
+    "category": "Creative & Motion",
+    "description": "Membuat dunia 3D yang sangat luas dengan pendekatan matematika dan node-based, bukan sculpting manual. Kamu membangun aturan (rules) untuk secara otomatis menghasilkan ribuan pohon, gunung, dan kota yang unik dalam hitungan detik.",
+    "tech_stack": [
+      "Houdini (SideFX)",
+      "Unreal Engine",
+      "Substance Designer",
+      "Python",
+      "VEX (Vector Expression)"
+    ],
+    "certifications": [
+      "SideFX Houdini Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 50.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "space-habitat-arch",
+    "title": "Space Habitat Architect",
+    "emoji": "🌖",
+    "category": "Space & Aviation",
+    "description": "Merancang lingkungan hidup bagi manusia di gravitasi nol, bulan, atau Mars. Kamu tidak hanya memikirkan estetika, tetapi psikologi ruang sempit (confined spaces), sistem dukungan kehidupan siklus tertutup, dan ketahanan terhadap radiasi kosmik.",
+    "tech_stack": [
+      "AutoCAD",
+      "Rhinoceros 3D",
+      "Grasshopper",
+      "Systems Engineering",
+      "Space Ergonomics",
+      "Materials Science"
+    ],
+    "certifications": [
+      "Space Architecture Technical Committee Membership"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 25.000.000 – Rp 100.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "uav-swarm-eng",
+    "title": "UAV Swarm Engineer",
+    "emoji": "🛸",
+    "category": "Space & Aviation",
+    "description": "Memprogram puluhan hingga ratusan drone agar terbang secara otonom dalam formasi yang terkoordinasi (swarm). Keahlian ini digunakan untuk pertunjukan cahaya malam hari (drone shows), misi pencarian dan penyelamatan massal, atau keperluan militer.",
+    "tech_stack": [
+      "C++",
+      "Python",
+      "ROS (Robot Operating System)",
+      "Swarm Intelligence Algorithms",
+      "Pixhawk / PX4",
+      "Computer Vision"
+    ],
+    "certifications": [
+      "Drone Pilot Part 107",
+      "ROS Robotics Certificate"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 65.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Hybrid / Field Work"
+  },
+  {
+    "id_role": "defi-protocol-arch",
+    "title": "DeFi Protocol Architect",
+    "emoji": "🏦",
+    "category": "Finance & Business",
+    "description": "Arsitek sistem perbankan generasi baru tanpa bank sentral. Kamu mendesain mekanika Automated Market Makers (AMM), platform lending/borrowing, dan staking pools menggunakan algoritma kontrak cerdas yang tahan terhadap eksploitasi flash loan.",
+    "tech_stack": [
+      "Solidity",
+      "Rust (Solana/Polkadot)",
+      "Vyper",
+      "Hardhat / Foundry",
+      "Ethers.js",
+      "Financial Modeling"
+    ],
+    "certifications": [
+      "Certified DeFi Expert (CDE)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 25.000.000 – Rp 150.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "tokenomics-designer",
+    "title": "Tokenomics Designer",
+    "emoji": "📊",
+    "category": "Finance & Business",
+    "description": "Mengawinkan teori moneter dengan matematika kriptografi. Kamu merancang sistem ekonomi dari token kripto, menentukan total pasokan, jadwal vesting, distribusi, dan insentif untuk memastikan keberlanjutan proyek web3 jangka panjang.",
+    "tech_stack": [
+      "Excel (Advanced)",
+      "Python (Data Modeling)",
+      "Game Theory",
+      "Machinations",
+      "Token Engineering Commons (TEC) Tools"
+    ],
+    "certifications": [
+      "Token Engineering Fundamentals Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 20.000.000 – Rp 100.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "ar-tryon-dev",
+    "title": "AR Virtual Try-On Developer",
+    "emoji": "🛍️",
+    "category": "Creative & Motion",
+    "description": "Menciptakan teknologi yang memungkinkan konsumen 'mencoba' makeup, kacamata, atau pakaian secara virtual melalui kamera smartphone dengan akurasi tracking wajah dan tubuh tingkat piksel yang sangat tinggi.",
+    "tech_stack": [
+      "Spark AR",
+      "Lens Studio (Snapchat)",
+      "WebAR (8th Wall)",
+      "MediaPipe",
+      "Three.js",
+      "GLSL Shaders"
+    ],
+    "certifications": [
+      "Meta Spark Creator",
+      "Snap AR Lens Studio Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "ai-red-teamer",
+    "title": "AI Red Teamer (Prompt Hacker)",
+    "emoji": "🦹",
+    "category": "Cybersecurity",
+    "description": "Spesialis yang dibayar untuk 'menghancurkan' dan menipu model AI. Kamu melakukan jailbreaking, prompt injection, dan data poisoning untuk menemukan celah sistematis agar AI tidak mengeluarkan informasi rahasia atau instruksi berbahaya saat rilis.",
+    "tech_stack": [
+      "Python",
+      "LLM Architectures",
+      "Prompt Engineering",
+      "Adversarial Machine Learning",
+      "OWASP Top 10 for LLMs"
+    ],
+    "certifications": [
+      "Certified Ethical Hacker (CEH)",
+      "AI Security Specializations"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 75.000.000/bulan",
+    "demand_level": "Sangat Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "haptic-tech-eng",
+    "title": "Haptic Technology Engineer",
+    "emoji": "🖐️",
+    "category": "Engineering & Hardware",
+    "description": "Kamu merancang teknologi yang memungkinkan manusia 'merasakan' objek digital di dunia maya. Menggunakan aktuator motor kecil, ultrasonik, atau pneumatik untuk memberikan feedback sentuhan fisik saat pengguna bermain VR atau mengoperasi alat bedah jarak jauh.",
+    "tech_stack": [
+      "C++",
+      "Embedded C",
+      "Microcontrollers",
+      "Unity / Unreal",
+      "Actuator Physics",
+      "Human-Computer Interaction (HCI)"
+    ],
+    "certifications": [
+      "HCI Design Specialization"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "vertical-farm-agronomist",
+    "title": "Vertical Farming Agronomist",
+    "emoji": "🥬",
+    "category": "Agri & Green Tech",
+    "description": "Mengelola pertanian presisi di dalam ruangan (indoor farming) tanpa tanah. Kamu memanipulasi spektrum lampu LED, nutrisi hidroponik/aeroponik, dan kelembapan berbasis data IoT untuk memaksimalkan hasil panen di tengah perkotaan padat.",
+    "tech_stack": [
+      "IoT Sensors",
+      "Hydroponic/Aeroponic Systems",
+      "Python (Data Analysis)",
+      "Priva Control Systems",
+      "LED Grow Light Spectrometry"
+    ],
+    "certifications": [
+      "Controlled Environment Agriculture (CEA) Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 8.000.000 – Rp 35.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "cultured-meat-eng",
+    "title": "Cultured Meat Process Engineer",
+    "emoji": "🥩",
+    "category": "Biotech & Deep Tech",
+    "description": "Berada di garis depan teknologi pangan masa depan. Kamu merancang skala produksi bioreaktor untuk menumbuhkan sel hewan menjadi daging asli di laboratorium, tanpa perlu beternak atau menyembelih hewan.",
+    "tech_stack": [
+      "Bioreactor Scaling",
+      "Cell Culture Media Optimization",
+      "Tissue Engineering",
+      "Scaffold Design",
+      "GMP (Good Manufacturing Practice)"
+    ],
+    "certifications": [
+      "Bioprocess Engineering Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "On-site (Lab)"
+  },
+  {
+    "id_role": "space-debris-analyst",
+    "title": "Space Debris Mitigation Analyst",
+    "emoji": "🌠",
+    "category": "Space & Aviation",
+    "description": "Memantau jutaan puing sampah antariksa di orbit bumi menggunakan radar dan teleskop. Kamu memprediksi probabilitas tabrakan (Kessler Syndrome) dan merencanakan manuver penghindaran darurat untuk satelit bernilai triliunan rupiah.",
+    "tech_stack": [
+      "STK (Systems Tool Kit)",
+      "Python",
+      "Astrodynamics",
+      "Orbital Mechanics",
+      "SQL",
+      "Radar Data Analysis"
+    ],
+    "certifications": [
+      "Space Situational Awareness (SSA) Training"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 20.000.000 – Rp 80.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Hybrid"
+  },
+  {
+    "id_role": "tech-animator",
+    "title": "Technical Animator",
+    "emoji": "🏃",
+    "category": "Creative & Gaming",
+    "description": "Menjembatani animator tradisional dengan game engine. Kamu membuat script untuk mengotomatisasi rigging, mengembangkan sistem animasi prosedural (seperti Inverse Kinematics untuk kaki yang memijak tangga), dan mengoptimalkan performa memori.",
+    "tech_stack": [
+      "Maya (Python/MEL)",
+      "Unreal Engine (AnimBP, Control Rig)",
+      "Unity (Mecanim)",
+      "Motion Builder",
+      "C++"
+    ],
+    "certifications": [
+      "Unreal Engine Technical Animator"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Hybrid"
+  },
+  {
+    "id_role": "narrative-sys-designer",
+    "title": "Narrative Systems Designer",
+    "emoji": "📜",
+    "category": "Creative & Gaming",
+    "description": "Bukan sekadar penulis skenario, kamu merancang sistem logika di balik cerita game yang bercabang (branching narrative). Kamu memastikan setiap pilihan pemain direkam oleh database dan memengaruhi dunia game secara dinamis tanpa merusak logika cerita.",
+    "tech_stack": [
+      "Twine",
+      "Articy:Draft",
+      "Ink",
+      "Unreal Engine (Blueprints)",
+      "C# (Unity)",
+      "Excel/Google Sheets"
+    ],
+    "certifications": [
+      "Game Design Fundamentals"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 8.000.000 – Rp 35.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "algo-auditor",
+    "title": "AI Bias & Algorithm Auditor",
+    "emoji": "⚖️",
+    "category": "Data & AI",
+    "description": "Bertindak sebagai auditor independen untuk sistem AI perusahaan. Kamu menguji algoritma machine learning untuk menemukan diskriminasi tersembunyi (bias gender/ras), kebocoran privasi, dan memastikan kepatuhan terhadap regulasi AI yang etis.",
+    "tech_stack": [
+      "Python",
+      "Fairlearn",
+      "AIF360 (IBM)",
+      "SHAP / LIME (Explainable AI)",
+      "SQL",
+      "Data Governance Frameworks"
+    ],
+    "certifications": [
+      "Certified Ethical Emerging Technologist (CEET)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 65.000.000/bulan",
+    "demand_level": "Sedang (Akan Terus Naik)",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "synthetic-data-eng",
+    "title": "Synthetic Data Engineer",
+    "emoji": "🧬",
+    "category": "Data & AI",
+    "description": "Menyelesaikan masalah kekurangan data dan masalah privasi dengan menciptakan dataset buatan (sintetis) menggunakan Generative Adversarial Networks (GANs). Data ini memiliki properti statistik yang sama dengan data asli tanpa mengandung informasi personal.",
+    "tech_stack": [
+      "Python",
+      "PyTorch / TensorFlow",
+      "GANs / Diffusion Models",
+      "YData / Gretel.ai",
+      "SQL",
+      "Data Visualization"
+    ],
+    "certifications": [
+      "AWS Certified Machine Learning"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 70.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "neuromorphic-eng",
+    "title": "Neuromorphic Hardware Engineer",
+    "emoji": "🧠",
+    "category": "Engineering & Hardware",
+    "description": "Mendesain chip komputer arsitektur baru yang meniru cara kerja jaringan saraf otak biologis. Chip ini sangat hemat energi dan sangat cepat untuk mengeksekusi tugas-tugas AI dibandingkan dengan prosesor tradisional (CPU/GPU).",
+    "tech_stack": [
+      "Verilog / VHDL",
+      "Spiking Neural Networks (SNNs)",
+      "C++",
+      "Python",
+      "ASIC Design",
+      "Cadence / Synopsys Tools"
+    ],
+    "certifications": [
+      "VLSI Design Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 25.000.000 – Rp 100.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "wearable-tech-eng",
+    "title": "Smart Wearables Engineer",
+    "emoji": "⌚",
+    "category": "Engineering & Hardware",
+    "description": "Merancang dan memprogram perangkat komputasi yang dikenakan di tubuh, seperti smartwatch, cincin kesehatan, atau pakaian pintar. Tantangannya adalah miniaturisasi, manajemen daya ekstrem, dan pembacaan sensor biometrik di permukaan kulit yang bergerak.",
+    "tech_stack": [
+      "Embedded C / C++",
+      "Bluetooth Low Energy (BLE)",
+      "FreeRTOS",
+      "Altium Designer",
+      "Signal Processing",
+      "I2C / SPI"
+    ],
+    "certifications": [
+      "ARM Accredited Engineer"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 55.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "cold-chain-iot",
+    "title": "Cold Chain IoT Specialist",
+    "emoji": "🧊",
+    "category": "Business & Logistics",
+    "description": "Memastikan integritas suhu rantai pasok dingin (vaksin, organ transplantasi, makanan beku) dari ujung ke ujung. Kamu memasang dan mengelola sensor IoT real-time yang memicu peringatan otomatis jika suhu kargo melenceng nol koma sekian derajat.",
+    "tech_stack": [
+      "LoRaWAN",
+      "RFID / NFC",
+      "AWS IoT",
+      "Python",
+      "Tableau",
+      "Logistics Management Systems (LMS)"
+    ],
+    "certifications": [
+      "Certified Supply Chain Professional (CSCP)",
+      "GDP (Good Distribution Practice) Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 40.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Hybrid"
+  },
+  {
+    "id_role": "reverse-logistics-arch",
+    "title": "Reverse Logistics Optimization Architect",
+    "emoji": "♻️",
+    "category": "Business & Logistics",
+    "description": "Merancang sistem untuk mengelola barang retur e-commerce, daur ulang baterai EV, atau pembuangan limbah elektronik secara efisien. Kamu menyulap proses 'pengembalian' yang merugikan menjadi pemulihan nilai aset yang menguntungkan.",
+    "tech_stack": [
+      "SQL",
+      "Python",
+      "ERP Systems (SAP / Oracle)",
+      "AnyLogic (Simulation)",
+      "PowerBI"
+    ],
+    "certifications": [
+      "Certified in Production and Inventory Management (CPIM)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Hybrid"
+  },
+  {
+    "id_role": "dtx-pm",
+    "title": "Digital Therapeutics (DTx) Product Manager",
+    "emoji": "💊",
+    "category": "Science & Health",
+    "description": "Mengelola pengembangan 'perangkat lunak sebagai obat'. Kamu membuat aplikasi mobile yang telah diuji secara klinis dan diresepkan oleh dokter untuk terapi kondisi seperti ADHD, depresi, atau manajemen diabetes.",
+    "tech_stack": [
+      "Agile/Scrum",
+      "Jira",
+      "Figma",
+      "Data Analytics (Amplitude)",
+      "HIPAA Compliance Frameworks"
+    ],
+    "certifications": [
+      "Certified Product Manager (CPM)",
+      "Digital Health Certifications"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "pharmaco-data-scientist",
+    "title": "Pharmacogenomics Data Scientist",
+    "emoji": "🔬",
+    "category": "Science & Health",
+    "description": "Menganalisis bagaimana profil DNA seseorang memengaruhi respons mereka terhadap obat tertentu. Kamu menggunakan machine learning untuk memprediksi dosis obat yang paling optimal dan minim efek samping bagi pasien secara individual.",
+    "tech_stack": [
+      "R",
+      "Python",
+      "Bioconductor",
+      "SQL",
+      "Machine Learning",
+      "Variant Call Format (VCF) Processing"
+    ],
+    "certifications": [
+      "Bioinformatics Specialization"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 65.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Hybrid / On-site"
+  },
+  {
+    "id_role": "did-architect",
+    "title": "Decentralized Identity (DID) Architect",
+    "emoji": "🪪",
+    "category": "Cybersecurity",
+    "description": "Membangun sistem identitas digital masa depan di mana pengguna memegang kendali penuh atas data mereka (Self-Sovereign Identity) menggunakan teknologi blockchain dan kriptografi Zero-Knowledge Proof, menggantikan sistem login terpusat.",
+    "tech_stack": [
+      "Rust",
+      "Go",
+      "Solidity",
+      "Zero-Knowledge Proofs (zk-SNARKs)",
+      "W3C DID Standards",
+      "Verifiable Credentials"
+    ],
+    "certifications": [
+      "Certified Blockchain Security Professional"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 20.000.000 – Rp 80.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "climate-risk-quant",
+    "title": "Quantitative Climate Risk Analyst",
+    "emoji": "🌪️",
+    "category": "Finance & Business",
+    "description": "Menerjemahkan data model iklim ekstrem (seperti prediksi banjir atau kenaikan permukaan laut 50 tahun ke depan) menjadi risiko finansial kuantitatif bagi bank, perusahaan asuransi, dan portofolio investasi real estat.",
+    "tech_stack": [
+      "Python",
+      "R",
+      "GIS (Spatial Analysis)",
+      "Monte Carlo Simulations",
+      "SQL",
+      "Climate Models (CMIP6)"
+    ],
+    "certifications": [
+      "Sustainability and Climate Risk (SCR) Certificate"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 75.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Remote-friendly"
+  },
+  {
+    "id_role": "vr-learning-dev",
+    "title": "Immersive Learning VR Developer",
+    "emoji": "🥽",
+    "category": "EdTech & Education",
+    "description": "Menciptakan simulasi pelatihan realitas virtual (VR) untuk skenario risiko tinggi. Kamu mendesain simulasi pembedahan jantung, prosedur pemadaman kebakaran, atau perbaikan turbin gas agar pekerja bisa berlatih tanpa bahaya.",
+    "tech_stack": [
+      "Unity",
+      "C#",
+      "Unreal Engine",
+      "Meta Quest SDK",
+      "Blender",
+      "xAPI (Learning Metrics)"
+    ],
+    "certifications": [
+      "Unity Certified Professional Developer"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 45.000.000/bulan",
+    "demand_level": "Tinggi",
+    "work_style": "Hybrid / Remote-friendly"
+  },
+  {
+    "id_role": "auto-marine-eng",
+    "title": "Autonomous Marine Vehicle Engineer",
+    "emoji": "🚤",
+    "category": "Engineering & Hardware",
+    "description": "Mengembangkan algoritma navigasi dan sistem kontrol untuk kapal laut tanpa awak (Unmanned Surface Vehicles) atau drone bawah laut (ROV) yang digunakan untuk pemetaan dasar laut, inspeksi pipa minyak, atau riset oseanografi.",
+    "tech_stack": [
+      "ROS / MOOS-IvP",
+      "C++",
+      "Python",
+      "Sonar Data Processing",
+      "Computer Vision",
+      "Navigational Sensors (INS/GNSS)"
+    ],
+    "certifications": [
+      "Marine Engineering Certifications"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 60.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "On-site"
+  },
+  {
+    "id_role": "blue-carbon-analyst",
+    "title": "Blue Carbon Data Analyst",
+    "emoji": "🌊",
+    "category": "Agri & Green Tech",
+    "description": "Fokus pada pelestarian laut. Kamu menganalisis citra satelit dan data lapangan dari hutan bakau (mangrove) dan padang lamun untuk mengukur secara presisi jumlah karbon yang mereka serap, yang nantinya dapat dikonversi menjadi kredit karbon.",
+    "tech_stack": [
+      "Google Earth Engine",
+      "QGIS",
+      "Python",
+      "R",
+      "Remote Sensing",
+      "Carbon Accounting Methodologies"
+    ],
+    "certifications": [
+      "GIS Professional (GISP)"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 10.000.000 – Rp 40.000.000/bulan",
+    "demand_level": "Sedang",
+    "work_style": "Hybrid"
+  },
+  {
+    "id_role": "soft-robotics-eng",
+    "title": "Soft Robotics Engineer",
+    "emoji": "🐙",
+    "category": "Engineering & Hardware",
+    "description": "Berpindah dari logam kaku, kamu mendesain robot dari material silikon, polimer, atau kain pneumatik yang lentur dan terinspirasi dari biologi (seperti tentakel gurita) agar aman berinteraksi secara fisik dengan manusia secara langsung.",
+    "tech_stack": [
+      "CAD (SolidWorks)",
+      "FEA (Finite Element Analysis)",
+      "Materials Science",
+      "Pneumatic Control Systems",
+      "C++",
+      "Python"
+    ],
+    "certifications": [
+      "Robotics Systems Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 15.000.000 – Rp 65.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "On-site (Lab)"
+  },
+  {
+    "id_role": "hri-designer",
+    "title": "Human-Robot Interaction (HRI) Designer",
+    "emoji": "🤝",
+    "category": "Design & Product",
+    "description": "Meneliti dan merancang bagaimana manusia berkomunikasi dengan robot secara alami. Kamu mendesain gerakan mata robot, nada suara (TTS), postur, dan layar UI agar robot pelayan atau perawat tidak mengintimidasi dan mudah dipahami oleh pengguna awam.",
+    "tech_stack": [
+      "Figma",
+      "Wizard of Oz Testing",
+      "Voice User Interface (VUI)",
+      "Prototyping Tools",
+      "Psychology / Behavioral Science",
+      "Basic Python"
+    ],
+    "certifications": [
+      "Human-Computer Interaction (HCI) Certification"
+    ],
+    "roadmap_url": null,
+    "salary_range_id": "Rp 12.000.000 – Rp 50.000.000/bulan",
+    "demand_level": "Niche",
+    "work_style": "Hybrid"
   }
 ]
