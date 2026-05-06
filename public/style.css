@@ -898,17 +898,25 @@ body {
   pointer-events: none;
 }
 .c-dot {
-  stroke: rgba(255,255,255,0.15);
-  stroke-width: 1.5;
+  stroke: rgba(255,255,255,0.2);
+  stroke-width: 2;
   transition: r 0.2s;
+  filter: drop-shadow(0 0 6px currentColor);
 }
-.c-node:hover .c-dot { r: 11; }
+.c-node:hover .c-dot { r: 13; }
 .c-label {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 12px; font-weight: 600;
-  fill: var(--text-primary);
+  font-size: 12px; font-weight: 700;
+  fill: rgba(240,240,248,0.92);
   pointer-events: none;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+  paint-order: stroke fill;
+  stroke: rgba(10,10,15,0.85);
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+.c-node:hover .c-label {
+  fill: #fff;
+  font-size: 13px;
 }
 
 /* ══════════════════════════════════════════════════════

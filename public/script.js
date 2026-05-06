@@ -45,6 +45,7 @@ const modalCareerWork   = document.getElementById('modal-career-work');
 const modalTechStack    = document.getElementById('modal-tech-stack');
 const modalCerts        = document.getElementById('modal-certs');
 const modalRoadmapLink  = document.getElementById('modal-roadmap-link');
+const modalRoadmapBox   = document.getElementById('modal-roadmap-box');
 const btnGoAssess       = document.getElementById('btn-go-assess');
 
 // Panel 2: Assessment
@@ -182,12 +183,12 @@ function renderConstellation(careers) {
   // ── Career nodes ──
   const careerNodes = node.filter(d => !d.isCenter);
   careerNodes.append('circle')
-    .attr('r', 8)
+    .attr('r', 10)
     .attr('class', 'c-dot')
     .style('fill', d => CATEGORY_COLORS[d.category] || '#7c6ff7');
   careerNodes.append('text')
     .attr('class', 'c-label')
-    .attr('x', 14).attr('dy', '0.35em')
+    .attr('x', 16).attr('dy', '0.35em')
     .text(d => d.title);
 
   // ── Click → open modal ──
@@ -195,11 +196,15 @@ function renderConstellation(careers) {
     .on('click', (e, d) => { e.stopPropagation(); openModal(d); });
 
   // ── Simulation ──
+  // Collision radius dihitung dari panjang teks agar label tidak tumpang tindih
+  const collisionRadius = d => d.isCenter ? 70 : Math.max(60, (d.title?.length || 10) * 4.5);
+
   simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(180).strength(0.5))
-    .force('charge', d3.forceManyBody().strength(-220))
-    .force('collision', d3.forceCollide(55))
-    .force('center', d3.forceCenter(cx, cy).strength(0.05))
+    .force('link', d3.forceLink(links).id(d => d.id).distance(220).strength(0.4))
+    .force('charge', d3.forceManyBody().strength(-450).distanceMax(600))
+    .force('collision', d3.forceCollide().radius(collisionRadius).strength(0.9))
+    .force('center', d3.forceCenter(cx, cy).strength(0.04))
+    .alphaDecay(0.02)
     .on('tick', () => {
       link
         .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
@@ -224,7 +229,14 @@ function openModal(career) {
   modalCareerSalary.textContent = career.salary_range_id;
   modalCareerDemand.textContent = career.demand_level;
   modalCareerWork.textContent   = career.work_style;
-  modalRoadmapLink.href         = career.roadmap_url;
+  // Conditional rendering: hanya tampilkan roadmap box jika URL tersedia
+  if (career.roadmap_url) {
+    modalRoadmapBox.classList.remove('hidden');
+    modalRoadmapLink.href = career.roadmap_url;
+  } else {
+    modalRoadmapBox.classList.add('hidden');
+    modalRoadmapLink.href = '#';
+  }
 
   // Tech Stack chips
   modalTechStack.innerHTML = career.tech_stack
