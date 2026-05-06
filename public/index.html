@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arah Karir | Platform Eksplorasi Karir Indonesia</title>
-    <meta name="description" content="Eksplorasi ratusan jalur karir, cek kecocokan kamu dengan AI, dan dapatkan roadmap visual yang detail. Platform karir terbaik untuk generasi Indonesia.">
+    <meta name="description" content="Jelajahi 6 jalur karir profesional, cek kecocokan kamu dengan AI, dan dapatkan action plan 3 bulan yang konkret. Gratis selamanya.">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <!-- Mermaid.js CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
@@ -26,7 +23,13 @@
                 <span class="logo-icon">🧭</span>
                 <span class="logo-text">Arah<span class="logo-accent">Karir</span></span>
             </a>
-            <div class="nav-tagline">Temukan jalur karir yang tepat buat kamu</div>
+            <div class="nav-right">
+                <span class="nav-badge">
+                    <span class="badge-dot-live"></span>
+                    AI-Powered
+                </span>
+                <span class="nav-tagline">Temukan jalur karir yang tepat buat kamu</span>
+            </div>
         </div>
     </nav>
 
@@ -40,27 +43,28 @@
         <div class="hero-content">
             <div class="hero-badge">
                 <span class="badge-dot"></span>
-                Platform Eksplorasi Karir #1 Indonesia
+                Inspired by Grow with Google & roadmap.sh
             </div>
             <h1 class="hero-title">
-                Bingung Mau Karir<br>
-                <span class="title-gradient">ke Mana?</span>
+                Eksplorasi Karir,<br>
+                <span class="title-gradient">Dipandu AI.</span>
             </h1>
             <p class="hero-subtitle">
-                Jelajahi jalur karir, cek spesialisasi terbaik versi AI,
-                dan dapatkan roadmap visual bercabang yang detail. Gratis.
+                Kita punya database profesi yang detail. AI kita akan mencocokkan
+                profil kamu dan kasih <em>reality check</em> yang jujur — bukan
+                sekedar motivasi kosong.
             </p>
             <div class="hero-cta-group">
                 <a href="#exploration" class="btn btn-primary" id="hero-cta-explore">
-                    Mulai Eksplorasi
+                    Lihat Semua Profesi
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </a>
                 <div class="hero-stats">
-                    <div class="stat"><strong>50+</strong><span>Jalur Karir</span></div>
+                    <div class="stat"><strong>6</strong><span>Profesi</span></div>
                     <div class="stat-divider"></div>
-                    <div class="stat"><strong>AI</strong><span>Powered</span></div>
+                    <div class="stat"><strong>AI</strong><span>Evaluator</span></div>
                     <div class="stat-divider"></div>
-                    <div class="stat"><strong>Free</strong><span>Selamanya</span></div>
+                    <div class="stat"><strong>100%</strong><span>Gratis</span></div>
                 </div>
             </div>
         </div>
@@ -70,52 +74,49 @@
         </div>
     </section>
 
-    <!-- EXPLORATION SECTION -->
+    <!-- EXPLORATION SECTION: Career Cards Grid -->
     <main id="exploration">
-
-        <!-- PHASE 1: Category Grid -->
-        <section class="section" id="phase-categories">
+        <section class="section" id="phase-explore">
             <div class="section-header">
-                <div class="section-tag">Langkah 1</div>
-                <h2 class="section-title">Pilih Bidang Industri</h2>
-                <p class="section-desc">Klik kategori untuk melihat jalur karir spesifiknya</p>
+                <div class="section-tag">Eksplorasi Profesi</div>
+                <h2 class="section-title">Pilih Jalur Karir</h2>
+                <p class="section-desc">
+                    Klik kartu profesi untuk melihat detail tech stack, sertifikasi, dan mulai asesmen AI kamu.
+                </p>
             </div>
-            <div class="category-grid" id="category-grid">
-                <!-- Injected by script.js -->
+
+            <!-- Loading State -->
+            <div class="careers-loading" id="careers-loading">
+                <div class="loading-spinner"></div>
+                <p>Memuat database profesi...</p>
+            </div>
+
+            <!-- Error State -->
+            <div class="careers-error hidden" id="careers-error">
+                <span class="error-icon">⚠️</span>
+                <p>Gagal memuat data profesi. Coba refresh halaman.</p>
+            </div>
+
+            <!-- Career Cards Grid -->
+            <div class="careers-grid" id="careers-grid">
+                <!-- Injected by script.js after /api/careers -->
             </div>
         </section>
-
-        <!-- PHASE 2: Job Cards -->
-        <section class="section hidden" id="phase-jobs">
-            <div class="phase-back">
-                <button class="btn-back" id="btn-back-to-categories">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-                    Kembali ke Semua Kategori
-                </button>
-            </div>
-            <div class="section-header">
-                <div class="section-tag" id="jobs-breadcrumb">Teknologi & Digital</div>
-                <h2 class="section-title" id="jobs-section-title">Pilih Jalur Karir</h2>
-                <p class="section-desc">Pilih posisi spesifik — AI akan merekomendasikan spesialisasi niche terbaik buat kamu</p>
-            </div>
-            <div class="jobs-grid" id="jobs-grid">
-                <!-- Injected by script.js -->
-            </div>
-        </section>
-
     </main>
 
-    <!-- MODAL — AI Niche Analyzer -->
-    <div class="modal-overlay hidden" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-job-title">
+    <!-- ═══════════════════════════════════════════════════════════
+         MODAL — Career Detail & AI Assessment
+    ══════════════════════════════════════════════════════════════ -->
+    <div class="modal-overlay hidden" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-career-title">
         <div class="modal-container">
 
             <!-- Modal Header -->
             <div class="modal-header">
-                <div class="modal-header-content">
-                    <span class="modal-emoji" id="modal-job-emoji">💡</span>
+                <div class="modal-header-left">
+                    <span class="modal-emoji" id="modal-career-emoji">💡</span>
                     <div>
-                        <div class="modal-label">Analisis Spesialisasi Karir</div>
-                        <h3 class="modal-job-title" id="modal-job-title">Software Engineer</h3>
+                        <div class="modal-label" id="modal-career-category">Kategori</div>
+                        <h3 class="modal-career-title" id="modal-career-title">Nama Profesi</h3>
                     </div>
                 </div>
                 <button class="modal-close" id="modal-close" aria-label="Tutup modal">
@@ -123,105 +124,234 @@
                 </button>
             </div>
 
-            <!-- Modal Body: Input Form -->
-            <div class="modal-body" id="modal-body-form">
-                <div class="modal-info-box">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
-                    <span>Ceritain diri kamu, AI akan rekomendasikan spesialisasi niche yang paling pas!</span>
-                </div>
-                <form id="analyze-form">
-                    <div class="form-group">
-                        <label for="user-profile-input" class="form-label">
-                            Ceritain Diri Kamu
-                            <span class="form-label-hint">(umur, latar belakang, pengalaman, hobi, kelemahan)</span>
-                        </label>
-                        <textarea
-                            id="user-profile-input"
-                            class="form-textarea"
-                            rows="6"
-                            placeholder="Contoh: Gue 24 tahun, lulusan manajemen, suka ngoprek tapi males baca dokumentasi panjang. Kerja sekarang di marketing tapi pengen pindah ke bidang ini. Kelemahan gue gak terlalu suka math..."
-                            required
-                            maxlength="2000"
-                        ></textarea>
-                        <div class="form-char-count">
-                            <span id="char-count">0</span>/2000 karakter
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-full" id="analyze-btn">
-                        <span id="analyze-btn-text">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-                            Temukan Niche Terbaikku
-                        </span>
-                        <span id="analyze-btn-loading" class="hidden">
-                            <div class="btn-spinner"></div>
-                            AI lagi mikir keras...
-                        </span>
-                    </button>
-                </form>
+            <!-- ── TAB NAVIGATOR ── -->
+            <div class="modal-tabs">
+                <button class="modal-tab active" id="tab-detail" data-tab="detail">
+                    📋 Detail Profesi
+                </button>
+                <button class="modal-tab" id="tab-assess" data-tab="assess">
+                    🤖 Asesmen AI
+                </button>
             </div>
 
-            <!-- Modal Body: AI Result (v2 — Niche Schema) -->
-            <div class="modal-result hidden" id="modal-body-result">
+            <!-- ── PANEL 1: Career Detail ── -->
+            <div class="modal-panel" id="panel-detail">
 
-                <!-- General Analysis -->
-                <div class="result-section-card">
-                    <div class="result-section-header">
-                        <span>🧠</span>
-                        <h4>Analisis AI tentang Kamu</h4>
-                    </div>
-                    <p class="result-reality-text" id="res-general-analysis">-</p>
+                <!-- Description -->
+                <div class="detail-section">
+                    <p class="detail-description" id="modal-career-desc">-</p>
                 </div>
 
-                <!-- Top Niches -->
-                <div class="result-section-card result-card-dark">
-                    <div class="result-section-header">
-                        <span>🎯</span>
-                        <h4>Spesialisasi yang Paling Cocok Buat Kamu</h4>
-                        <span class="roadmap-badge">AI Recommendation</span>
+                <!-- Meta Badges -->
+                <div class="detail-meta-row">
+                    <div class="detail-meta-badge">
+                        <span class="meta-icon">💰</span>
+                        <div>
+                            <span class="meta-label">Gaji di Indonesia</span>
+                            <span class="meta-value" id="modal-career-salary">-</span>
+                        </div>
                     </div>
-                    <div id="res-niches-container" class="niches-container">
-                        <!-- Niche cards injected by JS -->
+                    <div class="detail-meta-badge">
+                        <span class="meta-icon">📈</span>
+                        <div>
+                            <span class="meta-label">Tingkat Demand</span>
+                            <span class="meta-value" id="modal-career-demand">-</span>
+                        </div>
                     </div>
-                </div>
-
-                <!-- Roadmap Mermaid -->
-                <div class="result-section-card result-card-dark">
-                    <div class="result-section-header">
-                        <span>🗺️</span>
-                        <h4>Roadmap Visual Bercabang</h4>
-                        <span class="roadmap-badge">Powered by AI</span>
-                    </div>
-                    <div class="mermaid-container">
-                        <div class="mermaid" id="mermaid-diagram">
-                            <!-- Mermaid content injected here -->
+                    <div class="detail-meta-badge">
+                        <span class="meta-icon">🏠</span>
+                        <div>
+                            <span class="meta-label">Gaya Kerja</span>
+                            <span class="meta-value" id="modal-career-work">-</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Community Search -->
-                <div class="result-section-card">
-                    <div class="result-section-header">
-                        <span>👥</span>
-                        <h4>Cari Komunitas di Google</h4>
-                        <span class="community-hint">Klik untuk buka pencarian</span>
+                <!-- Tech Stack -->
+                <div class="detail-block">
+                    <div class="detail-block-header">
+                        <span class="block-icon">⚡</span>
+                        <h4>Tech Stack</h4>
+                        <span class="block-hint">Teknologi yang perlu dikuasai</span>
                     </div>
-                    <div class="community-buttons" id="res-community-buttons">
+                    <div class="tech-tags" id="modal-tech-stack">
                         <!-- Injected by JS -->
                     </div>
                 </div>
 
-                <!-- Actions -->
-                <div class="result-actions">
-                    <button class="btn btn-secondary" id="btn-reanalyze">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M1 4v6h6M23 20v-6h-6M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/></svg>
-                        Coba Profil Lain
-                    </button>
-                    <button class="btn btn-outline" id="btn-explore-more">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        Eksplorasi Karir Lain
-                    </button>
+                <!-- Certifications -->
+                <div class="detail-block">
+                    <div class="detail-block-header">
+                        <span class="block-icon">🏆</span>
+                        <h4>Sertifikasi Kunci</h4>
+                        <span class="block-hint">Bukti kompetensi yang diakui industri</span>
+                    </div>
+                    <div class="cert-list" id="modal-certs">
+                        <!-- Injected by JS -->
+                    </div>
                 </div>
 
+                <!-- Roadmap Link -->
+                <div class="roadmap-cta-box">
+                    <div class="roadmap-cta-left">
+                        <span class="roadmap-cta-icon">🗺️</span>
+                        <div>
+                            <div class="roadmap-cta-label">Lihat Roadmap Lengkap</div>
+                            <div class="roadmap-cta-sub">Dikurasi oleh komunitas developer dunia</div>
+                        </div>
+                    </div>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-roadmap" id="modal-roadmap-link">
+                        Buka roadmap.sh
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                    </a>
+                </div>
+
+                <!-- CTA to Assessment -->
+                <button class="btn btn-primary btn-full btn-start-assess" id="btn-go-assess">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    Cek Kecocokan Kamu dengan AI
+                </button>
+            </div>
+
+            <!-- ── PANEL 2: AI Assessment ── -->
+            <div class="modal-panel hidden" id="panel-assess">
+
+                <!-- Form State -->
+                <div id="assess-form-wrapper">
+                    <div class="assess-info-box">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                        <span>AI kami akan mengevaluasi profil kamu berdasarkan data nyata dari database profesi ini — bukan hasil karangan.</span>
+                    </div>
+                    <form id="assess-form">
+                        <div class="form-group">
+                            <label for="user-story-input" class="form-label">
+                                Ceritain Background Kamu
+                                <span class="form-label-hint">(pendidikan, pengalaman, skill, kelemahan, tujuan)</span>
+                            </label>
+                            <textarea
+                                id="user-story-input"
+                                class="form-textarea"
+                                rows="7"
+                                placeholder="Contoh: Gue 23 tahun, lulusan Teknik Informatika, pernah magang 3 bulan di startup sebagai web dev pake React. Suka ngulik Linux tapi belum pernah deploy ke cloud beneran. Lemah di matematika tapi kuat di problem solving. Pengen banget masuk ke bidang ini karena..."
+                                required
+                                maxlength="2000"
+                            ></textarea>
+                            <div class="form-char-count">
+                                <span id="char-count">0</span>/2000 karakter
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="assess-btn">
+                            <span id="assess-btn-text">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                                Mulai Evaluasi AI
+                            </span>
+                            <span id="assess-btn-loading" class="hidden">
+                                <div class="btn-spinner"></div>
+                                AI lagi nganalisis profil kamu...
+                            </span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Result State (hidden by default) -->
+                <div id="assess-result-wrapper" class="hidden">
+
+                    <!-- Match Score -->
+                    <div class="result-match-card">
+                        <div class="match-score-area">
+                            <div class="match-circle-wrap">
+                                <svg class="match-svg" viewBox="0 0 120 120">
+                                    <defs>
+                                        <linearGradient id="matchGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#7c6ff7"/>
+                                            <stop offset="100%" stop-color="#e96cdb"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="match-bg-circle" cx="60" cy="60" r="52"/>
+                                    <circle class="match-progress-circle" id="match-progress-circle" cx="60" cy="60" r="52"
+                                        stroke-dasharray="326.73"
+                                        stroke-dashoffset="326.73"
+                                        transform="rotate(-90 60 60)"/>
+                                </svg>
+                                <div class="match-score-text">
+                                    <span class="match-number" id="match-number">0</span>
+                                    <span class="match-percent">%</span>
+                                </div>
+                            </div>
+                            <div class="match-meta">
+                                <div class="match-label-badge" id="match-label-badge">Memuat...</div>
+                                <p class="match-subtitle">Tingkat Kecocokan dengan <strong id="match-career-name">-</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Reality Check -->
+                    <div class="result-card">
+                        <div class="result-card-header">
+                            <span>🧠</span>
+                            <h4>Reality Check dari AI</h4>
+                        </div>
+                        <p class="result-text" id="res-reality-check">-</p>
+                    </div>
+
+                    <!-- Skill Gaps -->
+                    <div class="result-card result-card-warn">
+                        <div class="result-card-header">
+                            <span>⚡</span>
+                            <h4>Gap Skill yang Perlu Dikejar</h4>
+                            <span class="result-badge result-badge-warn">Berdasarkan Tech Stack</span>
+                        </div>
+                        <div class="skill-gap-tags" id="res-skill-gaps">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Action Plan 3 Months -->
+                    <div class="result-card result-card-dark">
+                        <div class="result-card-header">
+                            <span>🗓️</span>
+                            <h4>Action Plan 3 Bulan Pertama</h4>
+                            <span class="result-badge">AI Generated</span>
+                        </div>
+                        <div class="action-plan-container" id="res-action-plan">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+
+                    <!-- First Step -->
+                    <div class="result-card result-card-green">
+                        <div class="result-card-header">
+                            <span>🚀</span>
+                            <h4>Langkah Pertama Hari Ini</h4>
+                        </div>
+                        <p class="result-firststep" id="res-first-step">-</p>
+                    </div>
+
+                    <!-- Static Resources from DB -->
+                    <div class="result-card">
+                        <div class="result-card-header">
+                            <span>🏆</span>
+                            <h4>Sertifikasi yang Harus Dikejar</h4>
+                            <span class="result-badge">Data dari Database</span>
+                        </div>
+                        <div class="cert-list cert-list-result" id="res-certs">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="result-actions">
+                        <button class="btn btn-secondary" id="btn-reanalyze">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M1 4v6h6M23 20v-6h-6M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/></svg>
+                            Coba Profil Lain
+                        </button>
+                        <button class="btn btn-outline" id="btn-close-modal-result">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            Eksplorasi Profesi Lain
+                        </button>
+                    </div>
+
+                </div>
             </div>
 
         </div>
@@ -232,6 +362,7 @@
         <span id="toast-message">-</span>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
